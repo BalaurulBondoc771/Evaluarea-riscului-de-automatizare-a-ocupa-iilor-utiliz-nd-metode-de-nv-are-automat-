@@ -1,0 +1,655 @@
+﻿cod_cor,denumire_ocupatie,denumire_clean,matched_job,match_score,total_skill,essential,optional,knowledge,skill_com,predicted_score,risk_level
+821216,confecționer circuite imprimate,confectioner circuite imprimate,confectioner placi circuite imprimate,91.17647058823529,48,16,32,18,30,76.14556319283949,high
+814302,operator la mașina de laminat,operator la masina de laminat,operator la masina de alezat,87.71929824561403,47,16,31,23,24,74.7309368560548,high
+818302,operator la mașina de etichetat,operator la masina de etichetat,operator la masina de alezat,84.7457627118644,47,16,31,23,24,74.7309368560548,high
+815207,operator la mașini de urzit,operator la masini de urzit,operator la masina de alezat,83.63636363636363,47,16,31,23,24,74.7309368560548,high
+214412,inginer autovehicule rutiere,inginer autovehicule rutiere,designer autovehicule rutiere,91.22807017543859,48,20,28,23,25,66.36631515694407,high
+241107,auditor financiar,auditor financiar,auditor financiar,100.0,60,22,38,24,36,66.15224596419856,high
+722202,sculer-matrițer,sculer-matriter,sculer-matriter,100.0,54,22,32,17,37,65.47549976640488,high
+215207,instructor linii,instructor linii,instructor in tic,84.84848484848484,45,13,32,25,20,65.16333745857884,high
+213239,cercetător în agricultură,cercetator in agricultura,lucrator in agricultura,87.5,47,16,31,21,26,64.63995499583683,medium
+322102,soră medicală,sora medicala,sora medicala,100.0,60,36,24,24,36,64.62325838495943,medium
+134213,soră medicală șefă,sora medicala sefa,sora medicala,83.87096774193549,60,36,24,24,36,64.62325838495943,medium
+311120,tehnician în fizică,tehnician in fizica,tehnician in robotica,80.0,63,29,34,25,38,64.26477076129297,medium
+242315,consilier vocațional,consilier vocational,consilier educational,87.8048780487805,49,20,29,18,31,64.10282994084903,medium
+235101,cercetător în pedagogie,cercetator in pedagogie,cercetator in pedologie,91.30434782608695,54,14,40,29,25,63.00093720570669,medium
+263415,cercetător în psihologie,cercetator in psihologie,cercetator in pedologie,89.36170212765957,54,14,40,29,25,63.00093720570669,medium
+213244,cercetător în pedologie-agrochimie,cercetator in pedologie-agrochimie,cercetator in pedologie,80.7017543859649,54,14,40,29,25,63.00093720570669,medium
+311540,tehnician mecatronist,tehnician mecatronist,tehnician mecatronist,100.0,63,28,35,24,39,62.37099621605784,medium
+214603,subinginer metalurgist,subinginer metalurgist,inginer metalurg,84.21052631578947,50,17,33,16,34,62.0314237930061,medium
+214607,expert inginer metalurg,expert inginer metalurg,inginer metalurg,82.05128205128204,50,17,33,16,34,62.0314237930061,medium
+516502,instructor auto,instructor auto,instructor auto,100.0,62,22,40,24,38,62.00864028720023,medium
+341601,instructor școlar auto,instructor scolar auto,instructor auto,81.08108108108108,62,22,40,24,38,62.00864028720023,medium
+516501,instructor școlar auto,instructor scolar auto,instructor auto,81.08108108108108,62,22,40,24,38,62.00864028720023,medium
+351109,operator testare jocuri digitale,operator testare jocuri digitale,specialist testare jocuri digitale,84.84848484848484,38,9,29,21,17,60.52404396556637,medium
+821221,confecționer becuri,confectioner becuri,confectioner arcuri,89.47368421052632,41,16,25,12,29,60.45041314996355,medium
+731723,confecționer mături,confectioner maturi,confectioner arcuri,89.47368421052632,41,16,25,12,29,60.45041314996355,medium
+731821,confecționer prețuri,confectioner preturi,confectioner arcuri,87.17948717948718,41,16,25,12,29,60.45041314996355,medium
+818106,confecționer termosuri,confectioner termosuri,confectioner arcuri,82.92682926829268,41,16,25,12,29,60.45041314996355,medium
+731702,confecționer jucării,confectioner jucarii,confectioner arcuri,82.05128205128204,41,16,25,12,29,60.45041314996355,medium
+753103,confecționer pălării,confectioner palarii,confectioner arcuri,82.05128205128204,41,16,25,12,29,60.45041314996355,medium
+752305,confecționer parchete,confectioner parchete,confectioner arcuri,80.0,41,16,25,12,29,60.45041314996355,medium
+231001,asistent universitar,asistent universitar,asistent universitar,100.0,84,32,52,14,70,60.42506307440793,medium
+334303,asistent manager,asistent manager,asistent manager,100.0,41,18,23,11,30,60.22986393022951,medium
+132457,manager logistică și distribuție,manager logistica si distributie,manager logistica si distributie,100.0,46,34,12,8,38,59.88859573738058,medium
+251102,analist de afaceri în domeniul TIC,analist de afaceri in domeniul tic,analist testare in domeniul tic,83.07692307692308,36,9,27,18,18,59.72527695685595,medium
+814106,operator la prelucrarea cauciucului,operator la prelucrarea cauciucului,operator in prelucrarea carnii,80.0,54,37,17,6,48,59.70110645877159,medium
+816054,operator prelucrare cafea,operator prelucrare cafea,operator in prelucrarea carnii,80.0,54,37,17,6,48,59.70110645877159,medium
+343405,inspector calitate producție culinară,inspector calitate productie culinara,inspector calitate produs final,82.35294117647058,47,14,33,16,31,59.56423913478092,medium
+111238,director general adjunct,director general adjunct,director general executiv adjunct,84.21052631578947,44,21,23,7,37,59.375073661614486,medium
+213152,inginer biotehnolog,inginer biotehnolog,inginer nanotehnologie,82.92682926829268,55,22,33,31,24,59.1227462915631,medium
+311111,tehnician hidrolog,tehnician hidrolog,tehnician biolog,88.23529411764706,51,22,29,25,26,59.01393956237581,medium
+314105,tehnician în biologie,tehnician in biologie,tehnician biolog,86.48648648648648,51,22,29,25,26,59.01393956237581,medium
+132456,"director import export cafea, ceai, cacao și mirodenii","director import export cafea, ceai, cacao si mirodenii","manager import export cafea, ceai, cacao si mirodenii",89.7196261682243,28,28,0,9,19,59.0116811020781,medium
+241305,analist financiar,analist financiar,analist financiar,100.0,47,23,24,24,22,58.783850686783815,medium
+241309,analist financiar bancar,analist financiar bancar,analist financiar,82.92682926829268,47,23,24,24,22,58.783850686783815,medium
+311536,inspector ISCIR,inspector iscir,inspector piscicol,84.84848484848484,40,27,13,15,25,58.6445555291557,medium
+263512,inspector social,inspector social,inspector piscicol,82.35294117647058,40,27,13,15,25,58.6445555291557,medium
+921602,muncitor piscicol,muncitor piscicol,inspector piscicol,80.0,40,27,13,15,25,58.6445555291557,medium
+532204,îngrijitor la domiciliu,ingrijitor la domiciliu,ingrijitor la domiciliu,100.0,50,23,27,8,42,58.23411823918462,medium
+532201,îngrijitor bătrâni la domiciliu,ingrijitor batrani la domiciliu,ingrijitor la domiciliu,85.18518518518519,50,23,27,8,42,58.23411823918462,medium
+532202,îngrijitor bolnavi la domiciliu,ingrijitor bolnavi la domiciliu,ingrijitor la domiciliu,85.18518518518519,50,23,27,8,42,58.23411823918462,medium
+215202,inginer automatist,inginer automatist,inginer automatist,100.0,109,45,64,31,78,58.091183016829994,medium
+215209,subinginer automatist,subinginer automatist,inginer automatist,92.3076923076923,109,45,64,31,78,58.091183016829994,medium
+352119,editor imagine,editor imagine,editor imagine,100.0,48,22,26,10,37,57.90310969487857,medium
+265420,director imagine,director imagine,editor imagine,86.66666666666667,48,22,26,10,37,57.90310969487857,medium
+352124,operator imagine,operator imagine,editor imagine,80.0,48,22,26,10,37,57.90310969487857,medium
+134502,director unitate de învățământ,director unitate de invatamant,director unitate de invatamant,100.0,53,26,27,18,35,57.85681484567446,medium
+211426,cercetător în geologie,cercetator in geologie,cercetator in teologie,95.45454545454545,58,35,23,10,48,57.61823565451014,medium
+263216,cercetător în etnologie,cercetator in etnologie,cercetator in teologie,93.33333333333333,58,35,23,10,48,57.61823565451014,medium
+211209,cercetător în meteorologie,cercetator in meteorologie,cercetator in teologie,91.66666666666666,58,35,23,10,48,57.61823565451014,medium
+263214,cercetător în arheologie,cercetator in arheologie,cercetator in teologie,91.30434782608695,58,35,23,10,48,57.61823565451014,medium
+215127,cercetător în metrologie,cercetator in metrologie,cercetator in teologie,91.30434782608695,58,35,23,10,48,57.61823565451014,medium
+213136,cercetător în biologie,cercetator in biologie,cercetator in teologie,90.9090909090909,58,35,23,10,48,57.61823565451014,medium
+264314,cercetător în filologie,cercetator in filologie,cercetator in teologie,88.88888888888889,58,35,23,10,48,57.61823565451014,medium
+263208,cercetător în sociologie,cercetator in sociologie,cercetator in teologie,86.95652173913044,58,35,23,10,48,57.61823565451014,medium
+263212,cercetător în geografie,cercetator in geografie,cercetator in teologie,84.44444444444444,58,35,23,10,48,57.61823565451014,medium
+263307,cercetător în istorie,cercetator in istorie,cercetator in teologie,83.72093023255815,58,35,23,10,48,57.61823565451014,medium
+211108,cercetător în astronomie,cercetator in astronomie,cercetator in teologie,82.6086956521739,58,35,23,10,48,57.61823565451014,medium
+212027,cercetător în demografie,cercetator in demografie,cercetator in teologie,82.6086956521739,58,35,23,10,48,57.61823565451014,medium
+211438,cercetător în geodezie,cercetator in geodezie,cercetator in teologie,81.81818181818183,58,35,23,10,48,57.61823565451014,medium
+211428,cercetător în geologie tehnică,cercetator in geologie tehnica,cercetator in teologie,80.76923076923077,58,35,23,10,48,57.61823565451014,medium
+263305,cercetător în filozofie,cercetator in filozofie,cercetator in teologie,80.0,58,35,23,10,48,57.61823565451014,medium
+211434,cercetător în geochimie,cercetator in geochimie,cercetator in teologie,80.0,58,35,23,10,48,57.61823565451014,medium
+213254,cercetător în zootehnie,cercetator in zootehnie,cercetator in teologie,80.0,58,35,23,10,48,57.61823565451014,medium
+112033,director resurse umane,director resurse umane,ofiter resurse umane,80.95238095238095,47,21,26,9,38,57.60364456369195,medium
+333304,referent resurse umane,referent resurse umane,ofiter resurse umane,80.95238095238095,47,21,26,9,38,57.60364456369195,medium
+324004,tehnician veterinar,tehnician veterinar,tehnician veterinar,100.0,55,30,25,11,44,57.54663221865891,medium
+311210,diriginte șantier,diriginte santier,diriginte de santier,91.8918918918919,48,22,26,12,36,57.42643720199627,medium
+241222,consultant fiscal,consultant fiscal,consultant fiscal,100.0,42,17,25,13,29,57.423954054863486,medium
+265256,consultant muzical,consultant muzical,consultant fiscal,85.71428571428571,42,17,25,13,29,57.423954054863486,medium
+815409,operator vopsitor textile,operator vopsitor textile,operator vopsire textile,93.87755102040816,15,8,7,7,8,57.295338006255676,medium
+815412,operator apretor textile,operator apretor textile,operator vopsire textile,83.33333333333334,15,8,7,7,8,57.295338006255676,medium
+242106,manager de inovare,manager de inovare,manager de software,81.08108108108108,48,23,25,18,30,57.127006737995046,medium
+751106,lucrător la prelucrarea peștelui,lucrator la prelucrarea pestelui,operator in prelucrarea pestelui,84.375,43,21,22,5,38,57.12027277259166,medium
+343104,operator prelucrare peliculă,operator prelucrare pelicula,operator in prelucrarea pestelui,80.0,43,21,22,5,38,57.12027277259166,medium
+214401,inginer mecanic,inginer mecanic,inginer mecanic,100.0,92,40,52,40,52,56.90227963818435,medium
+214402,subinginer mecanic,subinginer mecanic,inginer mecanic,90.9090909090909,92,40,52,40,52,56.90227963818435,medium
+226301,inginer clinic,inginer clinic,inginer mecanic,82.75862068965517,92,40,52,40,52,56.90227963818435,medium
+214434,expert inginer mecanic,expert inginer mecanic,inginer mecanic,81.08108108108108,92,40,52,40,52,56.90227963818435,medium
+311925,tehnician în industria alimentară,tehnician in industria alimentara,biotehnolog in industria alimentara,82.35294117647058,71,45,26,30,41,56.814860976884226,medium
+214514,inginer în industria alimentară,inginer in industria alimentara,biotehnolog in industria alimentara,81.81818181818183,71,45,26,30,41,56.814860976884226,medium
+214515,subinginer în industria alimentară,subinginer in industria alimentara,biotehnolog in industria alimentara,81.15942028985508,71,45,26,30,41,56.814860976884226,medium
+263401,psiholog în specialitatea psihologie clinică,psiholog in specialitatea psihologie clinica,psiholog in specialitatea psihologie clinica,100.0,120,99,21,38,82,56.72665397920958,medium
+263408,psiholog în specialitatea psihopedagogie specială,psiholog in specialitatea psihopedagogie speciala,psiholog in specialitatea psihologie clinica,83.87096774193549,120,99,21,38,82,56.72665397920958,medium
+263403,psiholog în specialitatea psihoterapie,psiholog in specialitatea psihoterapie,psiholog in specialitatea psihologie clinica,80.48780487804879,120,99,21,38,82,56.72665397920958,medium
+263402,psiholog în specialitatea consiliere psihologică,psiholog in specialitatea consiliere psihologica,psiholog in specialitatea psihologie clinica,80.43478260869566,120,99,21,38,82,56.72665397920958,medium
+252301,administrator de rețea de calculatoare,administrator de retea de calculatoare,arhitect de retea de calculatoare,81.69014084507043,55,28,27,21,34,56.63863733174016,medium
+313905,tehnician asigurarea calității,tehnician asigurarea calitatii,tehnician ingineria calitatii,81.35593220338984,40,17,23,11,29,56.637825494655615,medium
+215303,inginer electrotehnist,inginer electrotehnist,inginer electronist,92.6829268292683,58,27,31,31,27,56.610057715490235,medium
+214491,inginer mecatronist,inginer mecatronist,inginer electronist,89.47368421052632,58,27,31,31,27,56.610057715490235,medium
+263109,inginer economist,inginer economist,inginer electronist,83.33333333333334,58,27,31,31,27,56.610057715490235,medium
+315509,agent de securitate aeroportuară,agent de securitate aeroportuara,agent securitate aeroportuara,95.08196721311475,39,16,23,4,35,56.42003975289169,medium
+263645,inspector eparhial,inspector eparhial,inspector agricol,80.0,45,18,27,16,29,56.27265680396935,medium
+214602,inginer minier,inginer minier,inginer militar,82.75862068965517,120,36,84,67,53,56.1294267877012,medium
+215314,inginer iluminare,inginer iluminare,inginer militar,81.25,120,36,84,67,53,56.1294267877012,medium
+265423,mediaplanner,mediaplanner,media planner,96.0,42,14,28,15,27,56.11819374552416,medium
+215149,inginer electrician,inginer electrician,inginer electrician,100.0,108,42,66,58,50,56.03217404630386,medium
+215148,ofițer electrician,ofiter electrician,inginer electrician,81.08108108108108,108,42,66,58,50,56.03217404630386,medium
+242306,consilier orientare privind cariera,consilier orientare privind cariera,consilier orientare in cariera,92.3076923076923,56,25,31,15,41,55.900338481551834,medium
+263221,specialist planificare teritorială,specialist planificare teritoriala,proiectant planificare teritoriala,85.29411764705883,38,19,19,20,18,55.89162181694215,medium
+818110,sablator produse din sticlă,sablator produse din sticla,asamblor produse din plastic,83.63636363636363,37,13,24,6,31,55.841523042191625,medium
+112039,manager în servicii sociale,manager in servicii sociale,manager servicii sociale,94.11764705882352,114,56,58,19,95,55.749822468767135,medium
+342308,instructor canioning,instructor canioning,instructor camioane,82.05128205128204,43,25,18,15,28,55.6992745847695,medium
+516901,"agent dezinfecție, deratizare, dezinsecție","agent dezinfectie, deratizare, dezinsectie","lucrator dezinfectie, deratizare, dezinsectie",89.65517241379311,31,19,12,15,16,55.695620488267515,medium
+134906,"șef centru dezinfecție, deratizare și dezinsecție","sef centru dezinfectie, deratizare si dezinsectie","lucrator dezinfectie, deratizare, dezinsectie",82.97872340425532,31,19,12,15,16,55.695620488267515,medium
+263414,psiholog școlar,psiholog scolar,psiholog scolar,100.0,45,24,21,18,27,55.51859053656079,medium
+226603,logoped,logoped,logoped,100.0,87,73,14,36,51,55.42795007093887,medium
+311207,tehnician proiectant în construcții,tehnician proiectant in constructii,tehnician proiectant constructii civile,86.48648648648648,42,16,26,20,22,55.38702582115516,medium
+214925,"cercetător în tehnologia chimică a produselor textile, pieii, blănurilor și înlocuitorilor","cercetator in tehnologia chimica a produselor textile, pieii, blanurilor si inlocuitorilor","cercetator in tehnologia produselor textile, pieii, blanurilor si incaltamintei",85.20710059171599,30,20,10,13,17,55.36687062124162,medium
+131104,medic veterinar șef,medic veterinar sef,medic veterinar oficial,80.95238095238095,52,35,17,12,40,55.29717232134762,medium
+111233,consul,consul,consul,100.0,39,15,24,15,24,55.24958944120831,medium
+814209,operator mase plastice,operator mase plastice,operator presare mase plastice,84.61538461538461,40,20,20,7,33,55.19273994475119,medium
+814203,operator la prelucrarea maselor plastice,operator la prelucrarea maselor plastice,operator presare mase plastice,82.85714285714286,40,20,20,7,33,55.19273994475119,medium
+343525,disc jockey,disc jockey,disc-jockey,90.9090909090909,39,19,20,7,32,55.18306917072695,medium
+311502,maistru instalații navale,maistru instalatii navale,maistru instalatii sanitare,84.61538461538461,49,23,26,6,43,55.17875257749675,medium
+713101,tapetar,tapetar,tapetar,100.0,35,13,22,3,32,55.1298011355441,medium
+214409,inginer mecanică fină,inginer mecanica fina,inginer mecanic minier,83.72093023255815,27,19,8,10,17,55.11258277545994,medium
+753114,confecționer produse textile,confectioner produse textile,designer produse textile,80.76923076923077,27,19,8,10,17,55.11258277545994,medium
+243302,reprezentant vânzări în domeniul medical,reprezentant vanzari in domeniul medical,reprezentant vanzari in domeniul medical,100.0,36,20,16,15,21,55.0810018826952,medium
+121121,controlor financiar,controlor financiar,controlor financiar,100.0,37,17,20,7,30,55.07846526185902,medium
+121127,controlor revizor financiar,controlor revizor financiar,controlor financiar,82.6086956521739,37,17,20,7,30,55.07846526185902,medium
+214539,enolog,enolog,enolog,100.0,59,35,24,15,44,54.97508018472945,medium
+213305,ecolog,ecolog,enolog,83.33333333333334,59,35,24,15,44,54.97508018472945,medium
+265252,redactor muzical,redactor muzical,redactor medical,87.5,23,16,7,12,11,54.96525839252017,medium
+334403,recepționer medical,receptioner medical,redactor medical,80.0,23,16,7,12,11,54.96525839252017,medium
+334401,registrator medical,registrator medical,redactor medical,80.0,23,16,7,12,11,54.96525839252017,medium
+531102,guvernantă,guvernanta,guvernanta,100.0,36,16,20,4,32,54.87420317865971,medium
+333913,agent de navă,agent de nava,agent de paza,84.61538461538461,36,16,20,4,32,54.87420317865971,medium
+332203,agent de vânzări,agent de vanzari,agent de paza,82.75862068965517,36,16,20,4,32,54.87420317865971,medium
+111108,guvernator,guvernator,guvernanta,80.0,36,16,20,4,32,54.87420317865971,medium
+242211,administrator publicații,administrator publicatii,administrator publicatii,100.0,40,22,18,15,24,54.82028630923429,medium
+242208,administrator public,administrator public,administrator publicatii,90.9090909090909,40,22,18,15,24,54.82028630923429,medium
+833103,conducător tramvai (vatman),conducator tramvai (vatman),conducator tramvai (vatman),100.0,39,34,5,6,33,54.816864572689376,medium
+511311,ghid montan,ghid montan,ghid montan,100.0,50,26,24,7,43,54.769842883269874,medium
+815408,operator pregătitor chimicale în industria textilă,operator pregatitor chimicale in industria textila,operator pregatitor chimicale in industria textila,100.0,17,8,9,6,11,54.64872398927956,medium
+432109,pivnicer,pivnicer,pivnicer,100.0,22,17,5,3,19,54.63740708033107,medium
+214205,inginer construcții hidrotehnice,inginer constructii hidrotehnice,inginer constructii hidroenergetice,86.56716417910447,37,29,8,18,19,54.61774946726369,medium
+815410,operator imprimeur textile,operator imprimeur textile,operator imprimeur textil,98.0392156862745,16,9,7,5,11,54.560731338603006,medium
+815414,operator impregnator textile,operator impregnator textile,operator imprimeur textil,83.01886792452831,16,9,7,5,11,54.560731338603006,medium
+532908,lucrător social,lucrator social,lucrator social,100.0,121,53,68,27,94,54.5215258936974,medium
+522303,lucrător comercial,lucrator comercial,lucrator social,84.84848484848484,121,53,68,27,94,54.5215258936974,medium
+222201,moașă,moasa,moasa,100.0,88,73,15,35,53,54.39277749611221,medium
+432307,însoțitor vagoane,insotitor vagoane,insotitor vagon,93.75,35,9,26,1,34,54.341599562299834,medium
+223008,terapeut în terapii complementare,terapeut in terapii complementare,terapeut in terapii complementare,100.0,73,7,66,42,31,54.32088813862191,medium
+243106,manager comerț electronic,manager comert electronic,manager comert electronic,100.0,43,25,18,20,21,54.209507716653974,medium
+311209,tehnician instalații în construcții,tehnician instalatii in constructii,tehnician instalatii in constructii,100.0,40,18,22,10,30,54.170430659433,medium
+311901,maistru în industria celulozei și hârtiei,maistru in industria celulozei si hartiei,maistru in industria celulozei si hartiei,100.0,38,17,21,7,31,54.15955851612041,medium
+263419,terapeut ocupațional,terapeut ocupational,terapeut ocupational,100.0,86,69,17,36,50,54.14341937466394,medium
+321401,tehnician protezist – ortezist,tehnician protezist – ortezist,tehnician protezist-ortezist,93.10344827586206,29,17,12,11,18,54.12459461264229,medium
+731801,confecționer plase pescărești,confectioner plase pescaresti,confectioner plase de pescuit,82.75862068965517,10,3,7,6,4,54.020541942100046,medium
+818105,cuptorar recoacere sticlă,cuptorar recoacere sticla,cuptorar recoacere sticla,100.0,36,17,19,2,34,54.00376312986505,medium
+341115,grefier registrator,grefier registrator,grefier registrator,100.0,30,11,19,4,26,53.998105828580336,medium
+325723,inspector în domeniul securității și sănătății în muncă,inspector in domeniul securitatii si sanatatii in munca,agent in domeniul securitatii si sanatatii in munca,90.56603773584906,38,16,22,11,27,53.97768547457935,medium
+226302,specialist în domeniul securității și sănătății în muncă,specialist in domeniul securitatii si sanatatii in munca,agent in domeniul securitatii si sanatatii in munca,89.7196261682243,38,16,22,11,27,53.97768547457935,medium
+817225,tăietor la ferăstrău panglică,taietor la ferastrau panglica,operator fierastrau panglica,80.7017543859649,45,22,23,13,32,53.961683076854094,medium
+832203,șofer autoambulanță,sofer autoambulanta,sofer auto ambulanta,97.43589743589743,47,33,14,16,31,53.94502120336312,medium
+265442,producător TV,producator tv,producator vernis,80.0,34,14,20,3,31,53.94211430076662,medium
+721114,turnător modelier,turnator modelier,turnator modelier,100.0,27,9,18,7,20,53.94029194912642,medium
+252912,inginer de securitate sisteme înglobate,inginer de securitate sisteme inglobate,inginer de securitate sisteme inglobate,100.0,41,31,10,15,25,53.9213249744238,medium
+252910,manager de securitate sisteme informatice,manager de securitate sisteme informatice,inginer de securitate sisteme inglobate,82.5,41,31,10,15,25,53.9213249744238,medium
+141112,director rotiserie,director rotiserie,director artistic,80.0,49,37,12,5,44,53.91335552584164,medium
+231004,preparator învățământul universitar,preparator invatamantul universitar,preparator invatamantul superior,86.56716417910447,30,11,19,5,25,53.86979841327573,medium
+226903,medic legist,medic legist,medic legist,100.0,26,9,17,7,19,53.84703408091129,medium
+111139,președinte Senat,presedinte senat,presedinte instanta,80.0,26,9,17,7,19,53.84703408091129,medium
+516202,însoțitor,insotitor,insotitor spa,81.81818181818183,40,21,19,5,35,53.78603245623083,medium
+511318,însoțitor speolog,insotitor speolog,insotitor spa,80.0,40,21,19,5,35,53.78603245623083,medium
+226502,dietetician,dietetician,dietetician,100.0,103,81,22,41,62,53.73421171342707,medium
+817104,albitor pastă hârtie,albitor pasta hartie,operator pasta hartie,82.92682926829268,32,13,19,4,28,53.734151772687405,medium
+741105,montator instalații solare,montator instalatii solare,montator instalatii baie,88.0,49,23,26,9,40,53.71849777166677,medium
+333905,manager sportiv,manager sportiv,manager sportiv,100.0,32,21,11,2,30,53.68352177634089,medium
+226201,farmacist,farmacist,farmacist,100.0,86,65,21,28,58,53.65601726494663,medium
+134206,farmacist-șef,farmacist-sef,farmacist,81.81818181818183,86,65,21,28,58,53.65601726494663,medium
+432319,revizor tehnic vagoane,revizor tehnic vagoane,revizor tehnic vagoane,100.0,23,18,5,5,18,53.652195892404556,medium
+432344,revizor tehnic auto,revizor tehnic auto,revizor tehnic vagoane,82.92682926829268,23,18,5,5,18,53.652195892404556,medium
+235301,profesor de limbi străine,profesor de limbi straine,profesor de limbi straine,100.0,53,26,27,10,43,53.642620295703715,medium
+413206,operator mașină de calculat,operator masina de calculat,operator masina de calcat rufe,87.71929824561403,22,11,11,3,19,53.595568373041395,medium
+421203,supraveghetor jocuri (cazinou),supraveghetor jocuri (cazinou),supraveghetor cazinou,82.35294117647058,22,11,11,3,19,53.595568373041395,medium
+226205,farmacist primar,farmacist primar,farmacist spital,81.25,52,30,22,9,43,53.54405815837082,medium
+311709,tehnician proiectant metalurg,tehnician proiectant metalurg,tehnician proiectant machete,84.21052631578947,38,16,22,6,32,53.526478207738094,medium
+311708,tehnician proiectant minier,tehnician proiectant minier,tehnician proiectant machete,83.63636363636363,38,16,22,6,32,53.526478207738094,medium
+112024,director tehnic,director tehnic,editor tehnic,85.71428571428571,46,24,22,16,30,53.50449966434302,medium
+815415,operator decator,operator decator,operator excavator,88.23529411764706,38,18,20,5,33,53.47115857816911,medium
+134920,director departament securitate,director departament securitate,director departament universitate,84.375,41,22,19,10,31,53.462782067639374,medium
+242104,responsabil proces,responsabil proces,responsabil de proces,92.3076923076923,25,17,8,6,19,53.45130912239606,medium
+752204,marangoz-călăfătuitor,marangoz-calafatuitor,marangoz calafatuitor,95.23809523809523,22,10,12,3,19,53.406282161766704,medium
+962905,aprod,aprod,aprod,100.0,28,10,18,5,23,53.344696521934566,medium
+931203,"muncitor necalificat la întreținerea de drumuri, șosele, poduri, baraje","muncitor necalificat la intretinerea de drumuri, sosele, poduri, baraje","muncitor intretinere drumuri, sosele, poduri, baraje",84.5528455284553,33,15,18,4,29,53.33385073932614,medium
+932907,lucrător sortator deșeuri reciclabile,lucrator sortator deseuri reciclabile,lucrator sortator deseuri reciclabile,100.0,34,12,22,7,27,53.307052119176326,medium
+731835,pregătitor articole marochinărie,pregatitor articole marochinarie,operator manual articole marochinarie,81.15942028985508,15,4,11,5,10,53.2164591798454,medium
+333103,administrator cumpărări,administrator cumparari,administrator magazin,81.81818181818183,29,11,18,4,25,53.21346095171642,medium
+265237,cercetător științific în muzică,cercetator stiintific in muzica,cercetator stiintific veterinar,80.64516129032258,56,46,10,7,49,53.1982166990711,medium
+315506,tehnician securitate aeriană,tehnician securitate aeriana,tehnician securitate aeriana,100.0,23,17,6,6,17,53.18215221684567,medium
+311902,maistru tipograf,maistru tipograf,maistru tipograf,100.0,58,25,33,21,37,53.173517799372384,medium
+215205,inginer producție,inginer productie,designer productie,85.71428571428571,38,16,22,4,34,53.15784528351253,medium
+311403,tehnician proiectant electronică,tehnician proiectant electronica,tehnician proiectant in electronica,95.52238805970148,41,22,19,17,24,53.06242779733965,medium
+313903,tehnician în industria celulozei și hârtiei,tehnician in industria celulozei si hartiei,tehnician in industria celulozei si hartiei,100.0,32,14,18,5,27,53.04691846113796,medium
+311915,tehnician în industria pielăriei,tehnician in industria pielariei,tehnician in industria celulozei si hartiei,80.0,32,14,18,5,27,53.04691846113796,medium
+242235,coordonator programe de sport,coordonator programe de sport,coordonator programe de sport,100.0,34,15,19,5,29,53.04651091088126,medium
+516303,îmbălsămător,imbalsamator,imbalsamator,100.0,27,11,16,3,24,53.03638281461465,medium
+311703,maistru minier,maistru minier,maistru minier,100.0,26,11,15,3,23,53.00872383091703,medium
+311711,maistru mineralurg,maistru mineralurg,maistru minier,81.25,26,11,15,3,23,53.00872383091703,medium
+731311,maistru bijutier,maistru bijutier,maistru minier,80.0,26,11,15,3,23,53.00872383091703,medium
+541402,agent control acces,agent control acces,agent control acces,100.0,32,16,16,3,29,52.978846329537944,medium
+111201,consilier diplomatic,consilier diplomatic,consilier diplomatic,100.0,37,17,20,13,24,52.932114303917864,medium
+243214,curier diplomatic,curier diplomatic,consilier diplomatic,81.08108108108108,37,17,20,13,24,52.932114303917864,medium
+315415,controlor trafic aerian informare,controlor trafic aerian informare,controlor trafic aerian,82.14285714285714,36,32,4,11,25,52.902574204591886,medium
+432303,controlor trafic,controlor trafic,controlor trafic aerian,82.05128205128204,36,32,4,11,25,52.902574204591886,medium
+313104,operator la instalațiile de turbine cu abur sau gaze,operator la instalatiile de turbine cu abur sau gaze,tehnician la instalatiile de turbine cu abur sau gaze,87.61904761904762,30,11,19,6,24,52.88059561438022,medium
+815205,operator sculuitor,operator sculuitor,operator stivuitor,83.33333333333334,41,32,9,1,40,52.87310787027374,medium
+311511,maistru mecanică fină,maistru mecanica fina,maistru mecanica fina,100.0,36,16,20,5,31,52.87147942167256,medium
+722204,lăcătuș mecanică fină,lacatus mecanica fina,maistru mecanica fina,80.95238095238095,36,16,20,5,31,52.87147942167256,medium
+524101,manechin,manechin,manechin,100.0,22,11,11,4,18,52.7765669076335,medium
+516405,îngrijitor câini,ingrijitor caini,ingrijitor caini,100.0,35,16,19,6,29,52.717900035394194,medium
+921201,îngrijitor animale,ingrijitor animale,ingrijitor caini,82.35294117647058,35,16,19,6,29,52.717900035394194,medium
+531101,îngrijitor de copii,ingrijitor de copii,ingrijitor caini,80.0,35,16,19,6,29,52.717900035394194,medium
+962913,supraveghetor hotel,supraveghetor hotel,supraveghetor montaj,82.05128205128204,22,14,8,4,18,52.71273818050905,medium
+531103,baby sitter,baby sitter,babysitter,95.23809523809523,29,10,19,6,23,52.686528070768865,medium
+214312,specialist în reciclarea deșeurilor,specialist in reciclarea deseurilor,specialist in reciclarea deseurilor,100.0,36,22,14,4,32,52.670287086325054,medium
+611302,lucrător calificat în irigații,lucrator calificat in irigatii,operator calificat irigatii,84.21052631578947,22,11,11,7,15,52.66091179012698,medium
+711402,fierar betonist,fierar betonist,fierar betonist,100.0,48,22,26,7,41,52.60671242694038,medium
+541905,salvamar,salvamar,salvamar,100.0,34,15,19,6,28,52.599669963288136,medium
+341301,călugăr / călugăriță,calugar / calugarita,calugar/calugarita,94.73684210526315,44,8,36,13,31,52.58808727511686,medium
+961301,lucrător pentru salubrizare căi publice,lucrator pentru salubrizare cai publice,lucrator pentru salubrizare cai publice,100.0,61,29,32,14,47,52.577230121080916,medium
+961303,lucrător pentru salubrizare,lucrator pentru salubrizare,lucrator pentru salubrizare cai publice,81.81818181818183,61,29,32,14,47,52.577230121080916,medium
+961302,lucrător pentru salubrizare spații verzi,lucrator pentru salubrizare spatii verzi,lucrator pentru salubrizare cai publice,81.0126582278481,61,29,32,14,47,52.577230121080916,medium
+121307,manager energetic,manager energetic,manager energie,87.5,66,40,26,20,46,52.570584596295106,medium
+112028,manager general,manager general,manager energie,80.0,66,40,26,20,46,52.570584596295106,medium
+815212,operator răsucitor fire,operator rasucitor fire,operator rasucitor fire,100.0,30,12,18,4,26,52.56040434204459,medium
+815211,operator batirator fire,operator batirator fire,operator rasucitor fire,82.6086956521739,30,12,18,4,26,52.56040434204459,medium
+261906,notar,notar,notar,100.0,43,15,28,17,26,52.559525564483145,medium
+343515,ghid de animație,ghid de animatie,regizor de animatie,80.0,43,15,28,17,26,52.559525564483145,medium
+263605,capelan,capelan,capelan,100.0,31,10,21,5,26,52.55851451480703,medium
+815907,operator textile nețesute,operator textile netesute,operator masina textile netesute,87.71929824561403,22,9,13,3,19,52.5227918056281,medium
+333910,operator de interviu,operator de interviu,operator interviu,91.8918918918919,37,14,23,14,23,52.50977418598434,medium
+214304,inginer protecția mediului în energetică,inginer protectia mediului in energetica,manager protectia mediului in tic,82.1917808219178,40,21,19,18,22,52.49833571192599,medium
+711406,injectorist în construcții,injectorist in constructii,inspector in constructii,88.0,36,18,18,17,19,52.457708362987866,medium
+132454,manager sisteme de transport,manager sisteme de transport,inginer sisteme de transport,89.28571428571429,33,20,13,18,15,52.456886013334575,medium
+214493,inginer sisteme de transport operațional,inginer sisteme de transport operational,inginer sisteme de transport,82.35294117647058,33,20,13,18,15,52.456886013334575,medium
+832202,șofer autosanitară,sofer autosanitara,sofer autosanitara,100.0,25,15,10,7,18,52.38974207884516,medium
+325801,brancardier,brancardier,brancardier,100.0,46,39,7,9,37,52.380450793624235,medium
+213105,consilier botanist,consilier botanist,consilier zootehnist,84.21052631578947,47,24,23,21,26,52.33377972042734,medium
+213209,consilier inginer zootehnist,consilier inginer zootehnist,consilier zootehnist,83.33333333333334,47,24,23,21,26,52.33377972042734,medium
+215313,consilier tehnic,consilier tehnic,consilier zootehnist,83.33333333333334,47,24,23,21,26,52.33377972042734,medium
+311905,tehnician preț de cost,tehnician pret de cost,tehnician opere de arta,80.0,15,7,8,4,11,52.2996179406139,medium
+333908,impresar artistic,impresar artistic,impresar artistic,100.0,35,13,22,6,29,52.26867575919781,medium
+441501,arhivar,arhivar,arhivar,100.0,28,13,15,4,24,52.22654846220252,medium
+243220,specialist în activitatea de lobby,specialist in activitatea de lobby,specialist in calitatea datelor,80.0,40,20,20,17,23,52.18499680850132,medium
+432315,operator dană,operator dana,operator sonda,81.48148148148148,23,14,9,4,19,52.17124572998238,medium
+516902,gazdă club,gazda club,gazda club,100.0,28,11,17,2,26,52.11066929454068,medium
+811408,mașinist pentru prefabricate din beton și beton armat,masinist pentru prefabricate din beton si beton armat,operator prefabricate din beton si beton armat,84.84848484848484,33,13,20,0,33,52.103985957306364,medium
+933303,manipulant mărfuri,manipulant marfuri,manipulant marfuri,100.0,40,22,18,6,34,52.082156472562296,medium
+516403,instructor dresaj câini ghizi,instructor dresaj caini ghizi,instructor dresaj caini-ghizi,96.55172413793103,36,16,20,8,28,52.0780807033959,medium
+315301,comandant detașament zbor,comandant detasament zbor,comandant detasament pompieri,85.18518518518519,36,16,20,8,28,52.0780807033959,medium
+335501,inspector de poliție,inspector de politie,inspector de politie,100.0,33,12,21,5,28,52.0754688108094,medium
+261922,inspector de probațiune,inspector de probatiune,inspector de politie,83.72093023255815,33,12,21,5,28,52.0754688108094,medium
+722308,reglor-montator,reglor-montator,reglor-montator,100.0,31,12,19,7,24,52.057389517352846,medium
+263504,art-terapeut,art-terapeut,art-terapeut,100.0,66,50,16,20,46,52.02492075750268,medium
+241269,consultant de investiții,consultant de investitii,consultant de investitii,100.0,48,23,25,17,31,51.99178563187117,medium
+241206,inspector asigurări,inspector asigurari,inspector asigurari sociale,82.6086956521739,25,13,12,5,20,51.92584265459002,medium
+731102,armurier,armurier,armurier,100.0,39,19,20,3,36,51.9218247922726,medium
+422102,agent de turism,agent de turism,agent de turism,100.0,39,24,15,7,32,51.92020794434317,medium
+342101,fotbalist profesionist,fotbalist profesionist,atlet profesionist,80.0,15,10,5,1,14,51.83780404358187,medium
+621007,protecționist silvic,protectionist silvic,protectionist silvic,100.0,41,19,22,12,29,51.79471261652767,medium
+241266,gemolog,gemolog,gemolog,100.0,22,11,11,6,16,51.783633700695106,medium
+211422,geolog,geolog,gemolog,92.3076923076923,22,11,11,6,16,51.783633700695106,medium
+311706,tehnician metalurgie,tehnician metalurgie,tehnician metalurg,94.73684210526315,33,18,15,14,19,51.77017208206354,medium
+311710,tehnician mineralurg,tehnician mineralurg,tehnician metalurg,89.47368421052632,33,18,15,14,19,51.77017208206354,medium
+132439,conducător activitate de transport rutier,conducator activitate de transport rutier,manager activitate transport rutier,81.57894736842105,32,30,2,3,29,51.76557685510296,medium
+352126,operator sunet,operator sunet,operator soneta,89.65517241379311,31,15,16,3,28,51.76182235914584,medium
+134907,coordonator presă,coordonator presa,coordonator creatie,83.33333333333334,39,18,21,9,30,51.754863518255696,medium
+311115,tehnician metrolog,tehnician metrolog,tehnician metrolog,100.0,30,17,13,10,20,51.746224293546405,medium
+331303,tehnician merceolog,tehnician merceolog,tehnician metrolog,91.8918918918919,30,17,13,10,20,51.746224293546405,medium
+314104,tehnician în serologie,tehnician in serologie,tehnician metrolog,80.0,30,17,13,10,20,51.746224293546405,medium
+314306,tehnician cadastru forestier,tehnician cadastru forestier,tehnician forestier,80.85106382978722,38,23,15,8,30,51.73045785814177,medium
+214957,inginer biomedical,inginer biomedical,inginer biomedical,100.0,67,25,42,18,49,51.7302752377506,medium
+226904,bioinginer medical,bioinginer medical,inginer biomedical,83.33333333333334,67,25,42,18,49,51.7302752377506,medium
+132449,manager farmacii,manager farmacii,manager ferma,82.75862068965517,37,15,22,8,29,51.68860089938962,medium
+214625,inginer mineralurg,inginer mineralurg,inginer mineralurg,100.0,19,12,7,4,15,51.67876504038434,medium
+753403,plăpumar,plapumar,papusar,80.0,34,17,17,0,34,51.656483937182195,medium
+612104,lucrător calificat în creșterea animalelor,lucrator calificat in cresterea animalelor,lucrator cresterea animalelor,81.69014084507043,51,16,35,7,44,51.65197462649708,medium
+514205,machior,machior,machior,100.0,54,26,28,6,48,51.63733305144898,medium
+343522,secretar artistic,secretar artistic,secretar artistic,100.0,36,17,19,0,36,51.62929851032698,medium
+516203,valet,valet,valet,100.0,36,17,19,1,35,51.614705441338785,medium
+311501,maistru cazangerie,maistru cazangerie,maistru cazangerie,100.0,39,18,21,4,35,51.60792105979413,medium
+242236,ofițer de politici recreaționale,ofiter de politici recreationale,ofiter de politici recreationale,100.0,22,10,12,6,16,51.594347489420414,medium
+622401,paznic de vânătoare,paznic de vanatoare,paznic de vanatoare,100.0,18,12,6,3,15,51.54131465397591,medium
+265108,sculptor,sculptor,sculptor,100.0,19,12,7,3,16,51.534916532913996,medium
+421115,operator gestionar loto,operator gestionar loto,operator gestionar loto,100.0,20,9,11,8,12,51.52384419386785,medium
+818125,cuptorar ceramică fină și decor,cuptorar ceramica fina si decor,cuptorar ceramica fina si decor,100.0,16,8,8,2,14,51.515330260688934,medium
+242225,consilier de stare civilă,consilier de stare civila,ofiter de stare civila,85.1063829787234,16,7,9,2,14,51.515330260688934,medium
+411003,referent de stare civilă,referent de stare civila,ofiter de stare civila,82.6086956521739,16,7,9,2,14,51.515330260688934,medium
+242226,inspector de stare civilă,inspector de stare civila,ofiter de stare civila,80.85106382978722,16,7,9,2,14,51.515330260688934,medium
+243207,brand manager,brand manager,brand manager,100.0,43,31,12,7,36,51.490579409019546,medium
+811404,morar lianți,morar lianti,operator lianti,81.48148148148148,18,9,9,2,16,51.46579564266043,medium
+754301,controlor calitate,controlor calitate,controlor calitate produse,81.81818181818183,26,16,10,3,23,51.45134781855653,medium
+313201,operator la instalații de incinerare,operator la instalatii de incinerare,operator la instalatii de ridicat,84.05797101449275,29,16,13,4,25,51.419711965276626,medium
+813104,operator la instalații de ardere,operator la instalatii de ardere,operator la instalatii de ridicat,83.07692307692308,29,16,13,4,25,51.419711965276626,medium
+315314,instructor parașutism,instructor parasutism,instructor maritim,82.05128205128204,44,22,22,11,33,51.40766576040303,medium
+432312,instructor stație,instructor statie,instructor maritim,80.0,44,22,22,11,33,51.40766576040303,medium
+242313,analist ocupațional,analist ocupational,analist ocupational,100.0,36,16,20,9,26,51.40563913144857,medium
+515301,îngrijitor clădiri,ingrijitor cladiri,ingrijitor cladiri,100.0,24,10,14,2,22,51.40164385146668,medium
+541401,agent de securitate,agent de securitate,agent securitate,91.42857142857143,51,20,31,12,39,51.38403021185397,medium
+522101,vânzător,vanzator,vanator,93.33333333333333,30,15,15,10,20,51.38008099927598,medium
+265307,dansator,dansator,vanator,80.0,30,15,15,10,20,51.38008099927598,medium
+351108,analist testare software,analist testare software,specialist testare software,86.27450980392157,80,10,70,64,16,51.374800464956785,medium
+422101,agent de voiaj,agent de voiaj,agent de vama,81.48148148148148,18,8,10,3,15,51.36812324206305,medium
+541407,agent transport valori,agent transport valori,agent transport valori,100.0,29,14,15,3,26,51.3563145725975,medium
+432301,agent transporturi,agent transporturi,agent transport valori,85.0,29,14,15,3,26,51.3563145725975,medium
+265245,aranjor muzică,aranjor muzica,aranjor muzical,96.55172413793103,16,11,5,4,12,51.3522969527772,medium
+732202,imprimeur textil,imprimeur textil,imprimeur textil,100.0,13,9,4,3,10,51.343902981875964,medium
+811101,miner în subteran,miner in subteran,miner in subteran,100.0,14,9,5,5,9,51.305377297990844,medium
+811102,miner la suprafață,miner la suprafata,miner la suprafata,100.0,14,9,5,5,9,51.305377297990844,medium
+214419,inginer mecanic mașini instalații miniere,inginer mecanic masini instalatii miniere,mecanic masini instalatii miniere,89.1891891891892,15,11,4,4,11,51.304345308131936,medium
+334404,transcriptor medical,transcriptor medical,transcriitor medical,95.0,35,15,20,9,26,51.28740905934251,medium
+513201,barman,barman,barman,100.0,38,21,17,2,36,51.273537492127666,medium
+532103,infirmier/infirmieră,infirmier/infirmiera,infirmier/infirmiera,100.0,46,32,14,5,41,51.26292890883233,medium
+311605,maistru petrolist/ industria chimică,maistru petrolist/ industria chimica,maistru productie in industria chimica,81.08108108108108,37,22,15,11,26,51.21961462721538,medium
+815507,operator sortator în industria pielăriei,operator sortator in industria pielariei,operator in industria pielariei,87.32394366197182,19,6,13,5,14,51.213184817523995,medium
+242201,consilier administrația publică,consilier administratia publica,ofiter administratie publica,84.7457627118644,31,12,19,6,25,51.19298166156921,medium
+242202,expert administrația publică,expert administratia publica,ofiter administratie publica,82.14285714285714,31,12,19,6,25,51.19298166156921,medium
+251103,manager analiză de business în domeniul TIC,manager analiza de business in domeniul tic,manager analiza de business in domeniul tic,100.0,35,21,14,10,24,51.19094578823495,medium
+421201,crupier,crupier,crupier,100.0,29,20,9,3,26,51.16942078182375,medium
+335901,inspector metrolog,inspector metrolog,inspector metrolog,100.0,40,19,21,11,29,51.163274058074315,medium
+514103,coafor stilist,coafor stilist,coafor stilist,100.0,30,16,14,4,26,51.13167189396487,medium
+226309,ergonomist,ergonomist,ergonomist,100.0,33,15,18,13,20,51.109877224268146,medium
+265208,maestru studii canto,maestru studii canto,maestru studii dans,87.17948717948718,41,25,16,4,37,51.06278065683008,medium
+265303,maestru studii de balet,maestru studii de balet,maestru studii dans,80.95238095238095,41,25,16,4,37,51.06278065683008,medium
+831205,șef tren,sef tren,sef de tren,84.21052631578947,26,24,2,2,24,51.02209686568969,medium
+723305,ungător-gresor,ungator-gresor,ungator-gresor,100.0,19,10,9,3,16,51.013020591517616,medium
+441206,factor poștal,factor postal,factor postal,100.0,23,16,7,3,20,50.988275404178005,medium
+132428,șef stație căi ferate,sef statie cai ferate,sef statie cai ferate,100.0,23,22,1,3,20,50.983143476289776,medium
+263201,sociolog,sociolog,sociolog,100.0,81,44,37,26,55,50.97650460841089,medium
+422405,responsabil cazare,responsabil cazare,responsabil cabina,83.33333333333334,31,24,7,4,27,50.96795897647637,medium
+242406,manager de formare,manager de formare,manager de comunicare,82.05128205128204,21,13,8,7,14,50.9447051049854,medium
+216301,designer industrial,designer industrial,designer industrial,100.0,67,20,47,23,44,50.94172018091759,medium
+432310,instructor depou,instructor depou,instructor de box,84.84848484848484,23,12,11,5,18,50.92500801452127,medium
+235105,inspector școlar,inspector scolar,inspector scolar,100.0,27,10,17,5,22,50.90247335626979,medium
+335903,inspector salarii,inspector salarii,inspector scolar,84.84848484848484,27,10,17,5,22,50.90247335626979,medium
+241264,inspector casier,inspector casier,inspector scolar,81.25,27,10,17,5,22,50.90247335626979,medium
+112006,inspector general școlar,inspector general scolar,inspector scolar,80.0,27,10,17,5,22,50.90247335626979,medium
+315411,operator radar,operator radar,operator dragor,82.75862068965517,27,11,16,5,22,50.897156384655084,medium
+335202,operator rol,operator rol,operator dragor,81.48148148148148,27,11,16,5,22,50.897156384655084,medium
+812227,confecționer celule de electroliză,confectioner celule de electroliza,constructor celule de electroliza,86.56716417910447,18,10,8,2,16,50.846236956980384,medium
+511301,ghid de turism,ghid de turism,ghid de turism,100.0,58,24,34,13,45,50.829072860922494,medium
+111219,secretar general,secretar general,secretar general,100.0,28,13,15,8,20,50.82353753592325,medium
+421112,administrator cont,administrator cont,administrator de cont,92.3076923076923,36,22,14,12,24,50.8166811772608,medium
+241240,administrator de risc,administrator de risc,administrator de cont,85.71428571428571,36,22,14,12,24,50.8166811772608,medium
+515303,administrator de condominii,administrator de condominii,administrator de cont,83.33333333333334,36,22,14,12,24,50.8166811772608,medium
+242407,administrator de formare,administrator de formare,administrator de cont,80.0,36,22,14,12,24,50.8166811772608,medium
+112017,director comercial,director comercial,director comercial,100.0,32,14,18,10,22,50.800229397152194,medium
+241247,inspector de risc,inspector de risc,inspector de risc,100.0,32,14,18,10,22,50.800229397152194,medium
+335404,inspector de stat,inspector de stat,inspector de risc,82.35294117647058,32,14,18,10,22,50.800229397152194,medium
+314101,tehnician în bacteriologie,tehnician in bacteriologie,tehnician bacteriolog,89.36170212765957,39,20,19,17,22,50.794966336985695,medium
+431201,agent bursă,agent bursa,agent la bursa,88.0,33,16,17,18,15,50.79394554506926,medium
+813138,operator chimist la produsele farmaceutice și chimice pure,operator chimist la produsele farmaceutice si chimice pure,operator chimist la produsele farmaceutice si chimice pure,100.0,23,12,11,3,20,50.787563461727956,medium
+132308,șef șantier,sef santier,sef santier,100.0,56,27,29,22,34,50.769588631767746,medium
+121902,șef atelier,sef atelier,sef santier,81.81818181818183,56,27,29,22,34,50.769588631767746,medium
+511201,conductor tren,conductor tren,conductor tren,100.0,25,23,2,3,22,50.760467882208886,medium
+524102,model - atelier artistic și publicitate,model - atelier artistic si publicitate,model - atelier artistic si publicitate,100.0,26,14,12,3,23,50.73259239730833,medium
+732217,operator la mașina de tampografiat,operator la masina de tampografiat,operator masina de taiat,82.75862068965517,33,19,14,13,20,50.729414404616264,medium
+413205,operator mașină contabilizat,operator masina contabilizat,operator masina de taiat,80.76923076923077,33,19,14,13,20,50.729414404616264,medium
+325103,asistent de medicină dentară,asistent de medicina dentara,asistent de medicina dentara,100.0,43,36,7,0,43,50.715010578937424,medium
+341302,paracliser,paracliser,paracliser,100.0,24,10,14,4,20,50.62890292980621,medium
+132104,șef laborator în industria prelucrătoare,sef laborator in industria prelucratoare,lucrator in industria prelucratoare,88.0,24,10,14,4,20,50.62890292980621,medium
+132103,șef sector industria prelucrătoare,sef sector industria prelucratoare,lucrator in industria prelucratoare,81.15942028985508,24,10,14,4,20,50.62890292980621,medium
+311205,tehnician hidrotehnic,tehnician hidrotehnic,tehnician hidrotehnist,93.02325581395348,45,21,24,16,29,50.62842791751658,medium
+311924,tehnician frigotehnist,tehnician frigotehnist,tehnician hidrotehnist,86.36363636363636,45,21,24,16,29,50.62842791751658,medium
+311109,tehnician hidrometru,tehnician hidrometru,tehnician hidrotehnist,80.95238095238095,45,21,24,16,29,50.62842791751658,medium
+111127,secretar de stat,secretar de stat,secretar de stat,100.0,29,14,15,10,19,50.61290430113304,medium
+111140,subsecretar de stat,subsecretar de stat,secretar de stat,91.42857142857143,29,14,15,10,19,50.61290430113304,medium
+264316,interpret al limbajului mimico-gestual,interpret al limbajului mimico-gestual,interpret limbaj mimico-gestual,89.85507246376811,31,14,17,13,18,50.60913596173893,medium
+516913,lucrător interpret în limbaj mimico-gestual,lucrator interpret in limbaj mimico-gestual,interpret limbaj mimico-gestual,83.78378378378379,31,14,17,13,18,50.60913596173893,medium
+215103,dispecer rețea distribuție,dispecer retea distributie,dispecer retea distributie,100.0,27,17,10,2,25,50.58518050219457,medium
+421301,amanetar,amanetar,amanetar,100.0,24,16,8,3,21,50.575966556609636,medium
+315510,dispecer operațiuni de zbor,dispecer operatiuni de zbor,dispecer operatiuni de zbor,100.0,23,23,0,3,20,50.55708301887854,medium
+111134,ministru,ministru,ministru,100.0,32,14,18,12,20,50.53148036765022,medium
+261910,consilier armonizare legislativă,consilier armonizare legislativa,consilier armonizare legislativa,100.0,20,10,10,7,13,50.50595573704108,medium
+261912,analist armonizare legislativă,analist armonizare legislativa,consilier armonizare legislativa,83.87096774193549,20,10,10,7,13,50.50595573704108,medium
+261911,expert armonizare legislativă,expert armonizare legislativa,consilier armonizare legislativa,81.9672131147541,20,10,10,7,13,50.50595573704108,medium
+511203,controlor bilete,controlor bilete,controlor bilete,100.0,32,24,8,2,30,50.45046661410334,medium
+265228,regizor muzical,regizor muzical,regizor muzical,100.0,36,21,15,6,30,50.43990536918075,medium
+265254,realizator muzical,realizator muzical,regizor muzical,84.84848484848484,36,21,15,6,30,50.43990536918075,medium
+342310,instructor de dans,instructor de dans,instructor de inot,83.33333333333334,21,12,9,4,17,50.43427244298489,medium
+742207,electronist telecomunicații,electronist telecomunicatii,analist telecomunicatii,80.0,35,25,10,12,23,50.41182736161729,medium
+932101,ambalator manual,ambalator manual,ambalator manual,100.0,23,10,13,2,21,50.39635343592398,medium
+931204,săpător manual,sapator manual,ambalator manual,80.0,23,10,13,2,21,50.39635343592398,medium
+235103,consilier învățământ,consilier invatamant,consilier invatamant superior,81.63265306122449,31,14,17,12,19,50.37270364809387,medium
+214438,proiectant inginer mecanic,proiectant inginer mecanic,tehnician proiectant inginerie mecanica,80.0,29,14,15,13,16,50.35536256983123,medium
+731301,argintar,argintar,marinar,80.0,32,24,8,3,29,50.346207146363874,medium
+515104,administrator,administrator,administrator web,86.66666666666667,94,23,71,71,21,50.338805790994726,medium
+141104,administrator hotel,administrator hotel,administrator web,83.33333333333334,94,23,71,71,21,50.338805790994726,medium
+751202,cofetar,cofetar,cofetar,100.0,59,33,26,5,54,50.333650005213784,medium
+311108,tehnician geolog,tehnician geolog,tehnician geolog,100.0,58,23,35,13,45,50.33350120073789,medium
+314203,tehnician pedolog,tehnician pedolog,tehnician geolog,90.9090909090909,58,23,35,13,45,50.33350120073789,medium
+311112,tehnician hidrogeolog,tehnician hidrogeolog,tehnician geolog,86.48648648648648,58,23,35,13,45,50.33350120073789,medium
+216109,cercetător în arhitectură,cercetator in arhitectura,cercetator in literatura,85.71428571428571,69,45,24,20,49,50.29019790483409,medium
+214501,inginer petrochimist,inginer petrochimist,inginer petrochimist,100.0,38,28,10,12,26,50.26552862747822,medium
+214502,subinginer petrochimist,subinginer petrochimist,inginer petrochimist,93.02325581395348,38,28,10,12,26,50.26552862747822,medium
+214509,expert inginer petrochimist,expert inginer petrochimist,inginer petrochimist,85.1063829787234,38,28,10,12,26,50.26552862747822,medium
+214508,consilier inginer petrochimist,consilier inginer petrochimist,inginer petrochimist,80.0,38,28,10,12,26,50.26552862747822,medium
+242905,ofițer de poliție penitenciară,ofiter de politie penitenciara,ofiter de politie judiciara,84.21052631578947,33,14,19,8,25,50.26523924446511,medium
+342311,instructor de pilates,instructor de pilates,instructor de pilates,100.0,26,18,8,4,22,50.260690399051214,medium
+342302,instructor de fitness,instructor de fitness,instructor de pilates,85.71428571428571,26,18,8,4,22,50.260690399051214,medium
+512002,pizzar,pizzar,pizzar,100.0,20,14,6,1,19,50.238496276583774,medium
+312103,salvator minier,salvator minier,agent salvator minier,83.33333333333334,17,12,5,4,13,50.220366934129515,medium
+333912,operator vânzări prin telefon,operator vanzari prin telefon,agent vanzari prin telefon,83.63636363636363,32,17,15,8,24,50.21399094697743,medium
+621012,tăietor silvic,taietor silvic,inspector silvic,80.0,29,14,15,9,20,50.2082324835785,medium
+731110,optician,optician,ortoptician,84.21052631578947,70,63,7,25,45,50.17056404432946,medium
+242111,administrator societate comercială,administrator societate comerciala,administrator securitate sociala,84.84848484848484,27,13,14,6,21,50.14628164388191,medium
+341113,asistent registrator,asistent registrator,asistent editor,80.0,18,10,8,6,12,50.14614709608643,medium
+241219,administrator judiciar,administrator judiciar,administrator judiciar,100.0,29,13,16,10,19,50.142752947756165,medium
+313901,maistru-operator la roboți industriali,maistru-operator la roboti industriali,maistru roboti industriali,81.25,33,12,21,11,22,50.12122261579815,medium
+214240,inginer geotehnician în construcții miniere,inginer geotehnician in constructii miniere,inginer geotehnician in constructii miniere,100.0,17,11,6,3,14,50.11035282311303,medium
+315306,pilot aeronave,pilot aeronave,pilot aeronava,92.85714285714286,88,24,64,16,72,50.034062841770215,medium
+142008,manager de zonă,manager de zona,manager de contract,82.35294117647058,31,29,2,9,22,50.03247616427533,medium
+343509,organizator de producție,organizator de productie,organizator de nunti,81.81818181818183,36,18,18,0,36,50.017734387854944,medium
+325719,inspector sanitar,inspector sanitar,inspector sanitar,100.0,31,14,17,8,23,50.01351824576477,medium
+112008,inspector sanitar șef,inspector sanitar sef,inspector sanitar,89.47368421052632,31,14,17,8,23,50.01351824576477,medium
+333301,agent repartizare a forței de muncă,agent repartizare a fortei de munca,agent ocuparea fortei de munca,83.07692307692308,31,17,14,4,27,50.007314603534304,medium
+815508,vopsitor îmbrăcăminte din blană,vopsitor imbracaminte din blana,operator vopsire imbracaminte din blana,82.85714285714286,29,14,15,11,18,50.002648730841535,medium
+341114,grefier arhivar,grefier arhivar,grefier arhivar,100.0,27,12,15,8,19,49.987556824813105,medium
+331302,contabil,contabil,contabil,100.0,57,26,31,17,40,49.97101372434104,medium
+121120,contabil-șef,contabil-sef,contabil,80.0,57,26,31,17,40,49.97101372434104,medium
+215241,ofițer punte,ofiter punte,ofiter de punte,88.88888888888889,28,21,7,6,22,49.929472336022755,medium
+713202,vopsitor industrial,vopsitor industrial,pompier industrial,81.08108108108108,32,28,4,9,23,49.91960110147681,medium
+261201,procuror,procuror,procuror,100.0,33,16,17,12,21,49.89170655188715,medium
+422502,funcționar informații clienți,functionar informatii clienti,functionar centru informare clienti,81.25,32,14,18,7,25,49.88485614981482,medium
+311807,tehnician proiectant,tehnician proiectant,tehnician proiectant cad,90.9090909090909,90,24,66,32,58,49.85929845985141,medium
+311506,tehnician proiectant mecanic,tehnician proiectant mecanic,tehnician proiectant cad,88.46153846153845,90,24,66,32,58,49.85929845985141,medium
+243202,mediator,mediator,mediator,100.0,42,12,30,11,31,49.85694399394197,medium
+214489,ofițer mecanic,ofiter mecanic,ofiter mecanic secund,80.0,36,28,8,11,25,49.840034139789594,medium
+311512,maistru montaj,maistru montaj,maistru montaj mozaic,80.0,45,18,27,3,42,49.796280929952246,medium
+515110,lucrător hotelier,lucrator hotelier,lucrator forestier,80.0,36,26,10,6,30,49.74390105653873,medium
+311217,tehnician atașamentist,tehnician atasamentist,tehnician botanist,80.0,45,19,26,19,26,49.7220901168029,medium
+132451,manager relația cu furnizorii,manager relatia cu furnizorii,manager relatii cu furnizorii de tic,86.15384615384616,33,19,14,11,22,49.71329094434608,medium
+741213,electrician nave,electrician nave,electrician minier,82.35294117647058,15,12,3,6,9,49.702403700333576,medium
+741312,electrician de mină,electrician de mina,electrician minier,81.08108108108108,15,12,3,6,9,49.702403700333576,medium
+513103,somelier,somelier,somelier,100.0,17,16,1,2,15,49.67523938487642,medium
+821902,asamblor jucării,asamblor jucarii,asamblor bijuterii,82.35294117647058,42,12,30,10,32,49.64546323694989,medium
+342202,instructor sportiv,instructor sportiv,instructor pompieri,81.08108108108108,40,19,21,8,32,49.63678619414245,medium
+833204,conducător autospecială,conducator autospeciala,conducator autospeciala pompieri,83.63636363636363,32,23,9,6,26,49.62949265727085,medium
+511101,însoțitor de bord,insotitor de bord,insotitor de bord,100.0,40,31,9,3,37,49.61943100806679,medium
+122109,responsabil produs,responsabil produs,responsabil birou,85.71428571428571,37,17,20,11,26,49.61851565614489,medium
+111107,senator,senator,senator,100.0,29,11,18,12,17,49.560201876913645,medium
+311803,desenator,desenator,senator,87.5,29,11,18,12,17,49.560201876913645,medium
+214616,inginer petrolist,inginer petrolist,inginer petrolist,100.0,27,24,3,4,23,49.53904457303054,medium
+214617,subinginer petrolist,subinginer petrolist,inginer petrolist,91.8918918918919,27,24,3,4,23,49.53904457303054,medium
+214619,expert inginer petrolist,expert inginer petrolist,inginer petrolist,82.92682926829268,27,24,3,4,23,49.53904457303054,medium
+722112,fierar/ potcovar,fierar/ potcovar,fierar potcovar,96.7741935483871,22,8,14,3,19,49.52468460140131,medium
+751103,măcelar,macelar,macelar,100.0,67,36,31,6,61,49.52022514003888,medium
+221201,medic specialist,medic specialist,medic specialist,100.0,178,62,116,63,115,49.48453732126394,medium
+132212,șef unități miniere,sef unitati miniere,sef unitate miniera,89.47368421052632,38,27,11,10,28,49.4650055246986,medium
+311206,tehnician topometrist,tehnician topometrist,tehnician optometrist,95.23809523809523,39,27,12,14,25,49.43538275778966,medium
+333907,agent servicii client,agent servicii client,manager serviciu clienti,80.0,41,19,22,9,32,49.42866104326984,medium
+215114,inginer hidroenergetică,inginer hidroenergetica,inginer energetician,83.72093023255815,108,46,62,46,62,49.42275372386054,medium
+242402,formator de formatori,formator de formatori,formator/formatoare,80.0,28,11,17,6,22,49.39855773862315,medium
+723201,mecanic aviație,mecanic aviatie,mecanic maritim,80.0,64,37,27,15,49,49.367338907012744,medium
+613003,agricultor în culturi vegetale și crescător de animale,agricultor in culturi vegetale si crescator de animale,fermier culturi vegetale si crescator de animale,86.27450980392157,33,18,15,12,21,49.35963566757694,medium
+831206,paznic barieră,paznic bariera,paznic bariera,100.0,28,24,4,4,24,49.34278810233621,medium
+816020,morar,morar,morar,100.0,41,24,17,3,38,49.33358987813418,medium
+215230,inginer de cercetare în microelectronică,inginer de cercetare in microelectronica,inginer in microelectronica,80.59701492537313,106,45,61,31,75,49.31212692750957,medium
+931202,îngrijitor spații verzi,ingrijitor spatii verzi,ingrijitor spatii verzi,100.0,49,31,18,15,34,49.30714997092398,medium
+911202,îngrijitor spații hoteliere,ingrijitor spatii hoteliere,ingrijitor spatii verzi,80.0,49,31,18,15,34,49.30714997092398,medium
+815417,operator fixator textile,operator fixator textile,operator finisare textile,85.71428571428571,23,12,11,10,13,49.25130655485459,medium
+815420,operator tunsător textile,operator tunsator textile,operator finisare textile,84.0,23,12,11,10,13,49.25130655485459,medium
+815424,operator uscător textile,operator uscator textile,operator finisare textile,81.63265306122449,23,12,11,10,13,49.25130655485459,medium
+815404,operator spălător textile,operator spalator textile,operator finisare textile,80.0,23,12,11,10,13,49.25130655485459,medium
+516404,dresor câini,dresor caini,dresor caini,100.0,36,19,17,8,28,49.24018997035936,medium
+821906,confecționer-asamblor articole din lemn,confectioner-asamblor articole din lemn,asamblor articole din lemn,80.0,33,12,21,8,25,49.22800628595711,medium
+314307,tehnician amenajist,tehnician amenajist,tehnician farmacist,84.21052631578947,52,38,14,1,51,49.20469129879076,medium
+343502,tehnician machetist,tehnician machetist,tehnician farmacist,84.21052631578947,52,38,14,1,51,49.20469129879076,medium
+723309,mecanic mașini agricole,mecanic masini agricole,mecanic calificat masini agricole,82.14285714285714,30,12,18,7,23,49.20191507557847,medium
+111301,primar,primar,primar,100.0,31,11,20,12,19,49.19911929379275,medium
+713301,coșar,cosar,cosar,100.0,32,18,14,6,26,49.19175360382047,medium
+812101,cocsar,cocsar,cosar,90.9090909090909,32,18,14,6,26,49.19175360382047,medium
+335904,comisar,comisar,cosar,83.33333333333334,32,18,14,6,26,49.19175360382047,medium
+235904,designer instrucțional,designer instructional,designer instructional,100.0,59,36,23,27,32,49.152848068427,medium
+816016,operator la prepararea produselor lactate,operator la prepararea produselor lactate,lucrator la prepararea produselor lactate,92.6829268292683,28,13,15,10,18,49.13294206754527,medium
+816026,operator la prepararea produselor zaharoase,operator la prepararea produselor zaharoase,lucrator la prepararea produselor lactate,80.95238095238095,28,13,15,10,18,49.13294206754527,medium
+214131,analist calitate,analist calitate,analist calitatea apei,84.21052631578947,44,14,30,10,34,49.10168682092205,medium
+111218,prefect,prefect,prefect,100.0,30,11,19,13,17,49.0772489777742,medium
+111226,subprefect,subprefect,prefect,82.35294117647058,30,11,19,13,17,49.0772489777742,medium
+226405,kinetoterapeut,kinetoterapeut,kinetoterapeut,100.0,80,49,31,25,55,49.06890048128311,medium
+226401,fiziokinetoterapeut,fiziokinetoterapeut,kinetoterapeut,84.84848484848484,80,49,31,25,55,49.06890048128311,medium
+242113,consultant de securitate,consultant de securitate,consultant securitate,93.33333333333333,39,21,18,14,25,49.00152453334967,medium
+325101,tehnician dentar,tehnician dentar,tehnician dentar,100.0,28,23,5,0,28,48.998123903812385,medium
+325602,tehnician sanitar,tehnician sanitar,tehnician dentar,84.84848484848484,28,23,5,0,28,48.998123903812385,medium
+333914,asistent atragere fonduri,asistent atragere fonduri,asistent strangere de fonduri,88.88888888888889,21,7,14,1,20,48.96120886897247,medium
+134916,șef oficiu juridic,sef oficiu juridic,sef oficiu juridic,100.0,39,19,20,13,26,48.817802814151726,medium
+264207,editorialist,editorialist,editorialist,100.0,45,20,25,16,29,48.72793937108864,medium
+211421,inginer geolog,inginer geolog,inginer geolog,100.0,45,20,25,16,29,48.72793937108864,medium
+213304,inginer ecolog,inginer ecolog,inginer geolog,92.85714285714286,45,20,25,16,29,48.72793937108864,medium
+311508,maistru mecanic,maistru mecanic,maistru mecanic nava,85.71428571428571,38,26,12,10,28,48.63467497839869,medium
+311509,maistru mecanic auto,maistru mecanic auto,maistru mecanic nava,85.0,38,26,12,10,28,48.63467497839869,medium
+351203,tehnician TIC,tehnician tic,tehnician tic,100.0,80,23,57,57,23,48.625085507370024,medium
+352128,tehnician CATV,tehnician catv,tehnician tic,81.48148148148148,80,23,57,57,23,48.625085507370024,medium
+315317,tehnician aviație,tehnician aviatie,tehnician tic,80.0,80,23,57,57,23,48.625085507370024,medium
+541404,agent gardă de corp,agent garda de corp,agent garda de corp,100.0,46,24,22,8,38,48.55440055300036,medium
+241241,analist credite,analist credite,analist de credite,90.9090909090909,31,16,15,12,19,48.52461641764643,medium
+263203,analist de mediu,analist de mediu,analist de credite,82.35294117647058,31,16,15,12,19,48.52461641764643,medium
+214115,responsabil afacere,responsabil afacere,responsabil active,81.08108108108108,40,22,18,11,29,48.505925381644396,medium
+311102,tehnician chimist,tehnician chimist,tehnician chimist,100.0,63,27,36,18,45,48.470988923839165,medium
+341105,tehnician criminalist,tehnician criminalist,tehnician chimist,84.21052631578947,63,27,36,18,45,48.470988923839165,medium
+831204,acar,acar,acar,100.0,21,19,2,2,19,48.40805909045457,medium
+532105,lăcar,lacar,acar,88.88888888888889,21,19,2,2,19,48.40805909045457,medium
+921303,văcar,vacar,acar,88.88888888888889,21,19,2,2,19,48.40805909045457,medium
+331404,actuar,actuar,acar,80.0,21,19,2,2,19,48.40805909045457,medium
+321402,tehnician acustician – audioprotezist,tehnician acustician – audioprotezist,tehnician acustician-audioprotezist,94.44444444444444,31,11,20,10,21,48.396910757581686,medium
+311402,tehnician electronică,tehnician electronica,tehnician electronist,90.47619047619048,90,30,60,35,55,48.37062821651894,medium
+352127,tehnician radioelectronist,tehnician radioelectronist,tehnician electronist,89.36170212765957,90,30,60,35,55,48.37062821651894,medium
+263108,tehnician economist,tehnician economist,tehnician electronist,85.0,90,30,60,35,55,48.37062821651894,medium
+311305,tehnician electromecanic,tehnician electromecanic,tehnician electronist,84.44444444444444,90,30,60,35,55,48.37062821651894,medium
+325729,tehnician ergonomist,tehnician ergonomist,tehnician electronist,82.92682926829268,90,30,60,35,55,48.37062821651894,medium
+314102,tehnician în biochimie,tehnician in biochimie,tehnician biochimist,85.71428571428571,44,23,21,21,23,48.3635988683117,medium
+211204,meteorolog aeronautic,meteorolog aeronautic,meteorolog aeronautic,100.0,24,21,3,0,24,48.340073880684386,medium
+311118,meteorolog aeronautic tehnician,meteorolog aeronautic tehnician,meteorolog aeronautic,80.76923076923077,24,21,3,0,24,48.340073880684386,medium
+265439,regizor scenă,regizor scena,regizor de scena,89.65517241379311,25,14,11,1,24,48.3258197524245,medium
+215226,cercetător în comunicații,cercetator in comunicatii,cercetator in comunicare,89.79591836734694,65,41,24,13,51,48.260493350159244,medium
+213142,cercetător în botanică,cercetator in botanica,cercetator in comunicare,82.6086956521739,65,41,24,13,51,48.260493350159244,medium
+265414,regizor tehnic,regizor tehnic,regizor tehnic,100.0,10,9,1,1,9,48.257449164785086,medium
+112002,"comandant port, flotă","comandant port, flota",comandant de flota,82.05128205128204,28,10,18,6,22,48.24172717770516,medium
+241310,asistent bancar,asistent bancar,asistent actuar,86.66666666666667,24,10,14,9,15,48.23966840350439,medium
+241234,consultant bancar,consultant bancar,consultant actuar,88.23529411764706,35,14,21,16,19,48.154848739108594,medium
+241208,consultant bugetar,consultant bugetar,consultant actuar,80.0,35,14,21,16,19,48.154848739108594,medium
+243205,consultant cameral,consultant cameral,consultant actuar,80.0,35,14,21,16,19,48.154848739108594,medium
+321301,asistent farmacist,asistent farmacist,asistent farmacist,100.0,51,41,10,7,44,48.14575666526227,medium
+241307,asistent analist,asistent analist,asistent farmacist,82.35294117647058,51,41,10,7,44,48.14575666526227,medium
+261921,consilier de probațiune,consilier de probatiune,consilier de probatiune,100.0,29,11,18,7,22,48.020526280705496,medium
+311107,tehnician meteorolog,tehnician meteorolog,tehnician meteorolog,100.0,35,22,13,6,29,47.98556105426781,medium
+226901,medic igienist,medic igienist,medic dentist,81.48148148148148,83,67,16,11,72,47.9851903328299,medium
+261919,specialist proprietate intelectuală,specialist proprietate intelectuala,consultant proprietate intelectuala,80.0,30,13,17,14,16,47.95010883473612,medium
+731104,ceasornicar,ceasornicar,ceasornicar,100.0,54,15,39,12,42,47.90419963850781,medium
+531203,educator specializat,educator specializat,vanzator specializat,80.0,87,31,56,8,79,47.90314208345284,medium
+251305,manager de conținut web,manager de continut web,manager de continut web,100.0,54,32,22,21,32,47.77332266720854,medium
+242324,consilier pentru dezvoltare personală,consilier pentru dezvoltare personala,consultant dezvoltare personala,82.35294117647058,95,45,50,31,64,47.73999733667395,medium
+121125,manager financiar,manager financiar,manager de risc financiar,80.95238095238095,64,35,29,20,43,47.710789859667656,medium
+215216,inginer electromecanic,inginer electromecanic,inginer electromecanic,100.0,122,41,81,40,82,47.70507604971831,medium
+215217,subinginer electromecanic,subinginer electromecanic,inginer electromecanic,93.61702127659575,122,41,81,40,82,47.70507604971831,medium
+215201,inginer electromecanic SCB,inginer electromecanic scb,inginer electromecanic,91.66666666666666,122,41,81,40,82,47.70507604971831,medium
+214403,inginer electromecanic minier,inginer electromecanic minier,inginer electromecanic,86.27450980392157,122,41,81,40,82,47.70507604971831,medium
+215215,proiectant inginer electromecanic,proiectant inginer electromecanic,inginer electromecanic,80.0,122,41,81,40,82,47.70507604971831,medium
+226604,audiolog,audiolog,radiolog,87.5,77,55,22,24,53,47.54314721631205,medium
+265503,artist circ,artist circ,artist circ,100.0,39,31,8,3,36,47.5331284763447,medium
+265202,artist liric,artist liric,artist circ,86.95652173913044,39,31,8,3,36,47.5331284763447,medium
+241211,analist investiții,analist investitii,analist investitii,100.0,43,21,22,28,15,47.50407502046188,medium
+261103,consilier juridic,consilier juridic,consilier juridic,100.0,37,11,26,16,21,47.500831372850335,medium
+221103,consilier medic,consilier medic,consilier juridic,81.25,37,11,26,16,21,47.500831372850335,medium
+263210,cercetător în antropologie,cercetator in antropologie,cercetator in tanatologie,90.19607843137256,58,40,18,13,45,47.493143529854834,medium
+213248,cercetător în agromontanologie,cercetator in agromontanologie,cercetator in tanatologie,83.63636363636363,58,40,18,13,45,47.493143529854834,medium
+261901,executor judecătoresc,executor judecatoresc,executor judecatoresc,100.0,26,12,14,9,17,47.492095319209916,medium
+216508,subinginer cadastru,subinginer cadastru,inginer cadastru,91.42857142857143,26,12,14,8,18,47.492095319209916,medium
+226929,terapeut în terapie asistată de animale,terapeut in terapie asistata de animale,terapeut terapie asistata de animale,96.0,30,11,19,9,21,47.4460258784905,medium
+265221,dirijor cor,dirijor cor,dirijor cor,100.0,29,22,7,7,22,47.43051435789999,medium
+325712,inspector protecția mediului,inspector protectia mediului,expert protectia mediului,83.01886792452831,49,30,19,19,30,47.38660392919687,medium
+221101,medic medicină generală,medic medicina generala,medic medicina generala,100.0,56,10,46,0,56,47.3466649387862,medium
+261205,asistent judiciar,asistent judiciar,asistent juridic,84.84848484848484,29,15,14,9,20,47.28377928563168,medium
+352131,cameraman,cameraman,cameraman,100.0,45,23,22,8,37,47.190702414018695,medium
+541104,servant pompier,servant pompier,servant pompier,100.0,30,19,11,9,21,47.18651694106201,medium
+263609,consilier culte,consilier culte,consilier recrutare,82.35294117647058,43,23,20,10,33,47.06706569514631,medium
+212005,consilier actuar,consilier actuar,consilier recrutare,80.0,43,23,20,10,33,47.06706569514631,medium
+251101,proiectant sisteme informatice,proiectant sisteme informatice,proiectant de sisteme inglobate,81.9672131147541,78,17,61,67,11,47.06558884900843,medium
+751203,patiser,patiser,patiser,100.0,64,29,35,9,55,46.92094779780181,medium
+242237,inspector aeronautic,inspector aeronautic,inspector aeronautica,97.5609756097561,30,24,6,6,24,46.680255959575035,medium
+226402,fizioterapeut,fizioterapeut,fizioterapeut,100.0,98,90,8,28,70,46.675135162335394,medium
+712102,constructor de acoperișuri,constructor de acoperisuri,constructor decoruri,86.95652173913044,45,21,24,2,43,46.642471794717515,medium
+335504,detectiv particular,detectiv particular,detectiv particular,100.0,32,19,13,8,24,46.607068545474284,medium
+235905,dezvoltator de e-learning,dezvoltator de e-learning,dezvoltator de e-learning,100.0,67,24,43,41,26,46.47375283259559,medium
+263206,arheolog,arheolog,arheolog,100.0,79,40,39,25,54,46.408211248677404,medium
+121207,manager resurse umane,manager resurse umane,manager resurse umane,100.0,84,36,48,23,61,46.38573175679935,medium
+242325,analist resurse umane,analist resurse umane,manager resurse umane,80.95238095238095,84,36,48,23,61,46.38573175679935,medium
+242101,manager proiect,manager proiect,manager proiect,100.0,68,36,32,23,45,46.36124397947344,medium
+251105,dezvoltator de sisteme în domeniul TIC,dezvoltator de sisteme in domeniul tic,dezvoltator de aplicatii in domeniul tic,84.61538461538461,91,17,74,64,27,46.29339033733256,medium
+226203,farmacist de specialitate,farmacist de specialitate,farmacist specialist,84.44444444444444,60,50,10,18,42,46.1224881155493,medium
+211417,consilier pedolog,consilier pedolog,consilier de doliu,80.0,46,45,1,13,33,46.05496835842388,medium
+143910,director centru informare turistică,director centru informare turistica,manager centru informare turistica,84.05797101449275,52,32,20,6,46,46.02124352033326,medium
+834310,docher,docher,docher,100.0,43,37,6,10,33,46.00598530513733,medium
+242903,manager de responsabilitate socială,manager de responsabilitate sociala,manager responsabilitate sociala corporativa,81.0126582278481,49,27,22,15,34,45.79500506475161,medium
+325718,manager de responsabilitate socială,manager de responsabilitate sociala,manager responsabilitate sociala corporativa,81.0126582278481,49,27,22,15,34,45.79500506475161,medium
+263202,geograf,geograf,geograf,100.0,73,41,32,17,55,45.622763244832505,medium
+264208,fotoreporter,fotoreporter,fotoreporter,100.0,51,26,25,10,41,45.61842901239175,medium
+263502,consilier în domeniul adicțiilor,consilier in domeniul adictiilor,consilier in domeniul adictiilor,100.0,54,51,3,16,38,45.440067214689876,medium
+263309,cercetător în științele politice,cercetator in stiintele politice,cercetator in stiintele educatiei,83.07692307692308,67,47,20,12,55,45.2377125644771,medium
+121306,manager de securitate,manager de securitate,manager de securitate,100.0,44,28,16,11,33,45.195832317543974,medium
+211312,chimist analist,chimist analist,chimist analist,100.0,72,49,23,16,56,45.17018945185282,medium
+251211,dezvoltator interfața cu utilizatorul,dezvoltator interfata cu utilizatorul,dezvoltator interfata cu utilizatorul,100.0,98,17,81,76,22,45.15676878327736,medium
+243104,manager de produs,manager de produs,manager de produs,100.0,62,28,34,17,45,45.03289813942261,medium
+432337,operator portuar stivator,operator portuar stivator,operator portuar stivuitor,94.11764705882352,48,28,20,16,32,44.904299015431285,low
+432338,operator portuar expeditor,operator portuar expeditor,operator portuar stivuitor,80.76923076923077,48,28,20,16,32,44.904299015431285,low
+263302,istoric,istoric,istoric,100.0,74,38,36,16,58,44.506048206989846,low
+214513,inginer chimist,inginer chimist,inginer chimist,100.0,106,18,88,54,52,44.39533808273472,low
+214536,subinginer chimist,subinginer chimist,inginer chimist,90.9090909090909,106,18,88,54,52,44.39533808273472,low
+214505,expert inginer chimist,expert inginer chimist,inginer chimist,81.08108108108108,106,18,88,54,52,44.39533808273472,low
+311707,tehnician minier,tehnician minier,tehnician imagine,84.84848484848484,61,32,29,0,61,44.384251412380856,low
+216614,designer jocuri digitale,designer jocuri digitale,designer jocuri digitale,100.0,96,18,78,76,20,44.35671294937414,low
+251308,designer de nivel jocuri digitale,designer de nivel jocuri digitale,designer jocuri digitale,84.21052631578947,96,18,78,76,20,44.35671294937414,low
+351205,tehnician designer jocuri digitale,tehnician designer jocuri digitale,designer jocuri digitale,82.75862068965517,96,18,78,76,20,44.35671294937414,low
+341202,pedagog social,pedagog social,pedagog social,100.0,60,44,16,18,42,44.308909953525465,low
+753203,confecționer corsete,confectioner corsete,confectioner costume,85.0,48,27,21,1,47,44.193559721230535,low
+721404,confecționer cocleți,confectioner cocleti,confectioner costume,80.0,48,27,21,1,47,44.193559721230535,low
+265222,maestru corepetitor,maestru corepetitor,maestru corepetitor dans,88.37209302325581,50,30,20,4,46,44.19257326468998,low
+134921,manager cultural,manager cultural,manager centru cultural,82.05128205128204,50,30,20,4,46,44.19257326468998,low
+214494,arhitect naval,arhitect naval,arhitect naval,100.0,92,12,80,45,47,44.00650997732183,low
+213153,cercetător în bioinformatică,cercetator in bioinformatica,cercetator in bioinformatica,100.0,84,56,28,28,56,43.80732500756263,low
+214917,cercetător în informatică,cercetator in informatica,cercetator in bioinformatica,94.33962264150944,84,56,28,28,56,43.80732500756263,low
+212023,cercetător în matematică informatică,cercetator in matematica informatica,cercetator in bioinformatica,81.25,84,56,28,28,56,43.80732500756263,low
+215238,cercetător în automatică,cercetator in automatica,cercetator in bioinformatica,80.76923076923077,84,56,28,28,56,43.80732500756263,low
+352132,tehnician de echipamente TV,tehnician de echipamente tv,tehnician echipamente video,85.18518518518519,45,23,22,1,43,43.48107268133839,low
+263510,cercetător în asistența socială,cercetator in asistenta sociala,cercetator in asistenta sociala,100.0,70,47,23,10,60,43.382062186651055,low
+241215,administrator credite,administrator credite,administrator credite,100.0,49,27,22,16,33,43.21392526036419,low
+242218,administrator editură,administrator editura,administrator credite,85.71428571428571,49,27,22,16,33,43.21392526036419,low
+214238,administrator port,administrator port,administrator credite,82.05128205128204,49,27,22,16,33,43.21392526036419,low
+141117,director bar,director bar,director banca,84.61538461538461,57,31,26,16,41,43.20307666802996,low
+112018,director vânzări,director vanzari,director banca,80.0,57,31,26,16,41,43.20307666802996,low
+132448,manager achiziții,manager achizitii,manager achizitii,100.0,53,25,28,13,40,43.04115876518087,low
+242117,manager de facilități,manager de facilitati,manager de facilitati,100.0,56,36,20,15,41,42.47069236226468,low
+263627,preot,preot,preot,100.0,64,18,46,14,50,42.39916659235439,low
+341305,preot,preot,preot,100.0,64,18,46,14,50,42.39916659235439,low
+324002,asistent veterinar,asistent veterinar,asistent veterinar,100.0,60,45,15,14,46,42.35555805850802,low
+324001,agent veterinar,agent veterinar,asistent veterinar,84.84848484848484,60,45,15,14,46,42.35555805850802,low
+531201,asistent maternal,asistent maternal,asistent veterinar,80.0,60,45,15,14,46,42.35555805850802,low
+213146,cercetător în ecologie și protecția mediului,cercetator in ecologie si protectia mediului,cercetator in protectia mediului,84.21052631578947,82,56,26,21,61,42.00574613281193,low
+214309,inginer de cercetare în protecția mediului,inginer de cercetare in protectia mediului,cercetator in protectia mediului,81.08108108108108,82,56,26,21,61,42.00574613281193,low
+251307,dezvoltator jocuri digitale,dezvoltator jocuri digitale,dezvoltator jocuri digitale,100.0,82,19,63,59,23,42.00175740862165,low
+311519,tehnician mecanic,tehnician mecanic,tehnician mecanic auto,87.17948717948718,79,20,59,26,53,41.94916178452383,low
+754204,pirotehnician,pirotehnician,pirotehnician,100.0,61,37,24,0,61,41.587586986384125,low
+332202,reprezentant comercial,reprezentant comercial,reprezentant comercial,100.0,76,32,44,34,42,41.41840998205275,low
+264310,terminolog,terminolog,criminolog,80.0,67,47,20,14,53,41.38544181749358,low
+263514,consilier de cuplu,consilier de cuplu,consilier de cuplu,100.0,58,47,11,18,40,41.065405800927245,low
+216307,designer vestimentar,designer vestimentar,designer vestimentar,100.0,55,12,43,13,42,41.0447117072511,low
+242120,analist de afaceri,analist de afaceri,analist de afaceri,100.0,53,26,27,22,30,41.02994844067961,low
+111223,șef departament,sef departament,sef departament,100.0,80,16,64,23,57,40.880967846221694,low
+263501,asistent social,asistent social,asistent social,100.0,104,59,45,11,93,40.77115770220328,low
+243219,asistent comercial,asistent comercial,asistent social,84.84848484848484,104,59,45,11,93,40.77115770220328,low
+226923,asistent medico-social,asistent medico-social,asistent social,81.08108108108108,104,59,45,11,93,40.77115770220328,low
+325908,asistent medico-social,asistent medico-social,asistent social,81.08108108108108,104,59,45,11,93,40.77115770220328,low
+214652,asistent de cercetare în știința materialelor,asistent de cercetare in stiinta materialelor,asistent de cercetare in invatamantul superior,81.31868131868131,81,43,38,17,64,40.739541297862054,low
+352135,designer video,designer video,designer video,100.0,53,27,26,4,49,39.87240658117,low
+134201,asistent medical șef,asistent medical sef,asistent medical sef,100.0,93,57,36,7,86,39.51975390190612,low
+315303,copilot,copilot,copilot,100.0,52,43,9,10,42,39.08360176038596,low
+352134,tehnician la echipamente de înregistrare imagine și sunet,tehnician la echipamente de inregistrare imagine si sunet,tehnician echipamente inregistrare sunet,82.4742268041237,53,29,24,2,51,38.33218150181931,low
+315316,maistru aviație,maistru aviatie,maistru nava,81.48148148148148,69,24,45,22,47,37.36805123283345,low
+741217,tehnician de scufundare,tehnician de scufundare,tehnician de scena,82.92682926829268,90,48,42,0,90,35.577161547655315,low
+343505,maestru de sunet,maestru de sunet,maestru de sunet,100.0,75,44,31,2,73,30.459711515599903,low
+265304,maestru de balet,maestru de balet,maestru de sunet,81.25,75,44,31,2,73,30.459711515599903,low
+132450,manager aprovizionare,manager aprovizionare,manager aprovizionare,100.0,99,23,76,24,75,28.980395996700576,low

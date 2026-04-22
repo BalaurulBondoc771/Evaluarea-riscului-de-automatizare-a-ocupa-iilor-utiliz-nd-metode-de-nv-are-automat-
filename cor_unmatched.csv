@@ -1,0 +1,162 @@
+﻿cod_cor,denumire_ocupatie,denumire_clean,matched_job,match_score
+817207,aburitor plută,aburitor pluta,auditor calitate call center,64.28571428571429
+731202,"acordor piane, pianine, orgă, țambal","acordor piane, pianine, orga, tambal",machior,65.45454545454547
+812121,aglomeratorist,aglomeratorist,mediator,67.5
+243221,arbitru,arbitru,maistru aplicare gresie-faianta,65.76923076923076
+263601,arhiepiscop,arhiepiscop,arhivar,65.45454545454547
+263603,arhondar,arhondar,dogar,67.5
+321201,autopsier,autopsier,manager activitate transport rutier,64.28571428571429
+265301,balerin,balerin,controlor trafic aerian,69.23076923076923
+731103,"blocator, chituitor, deblocator","blocator, chituitor, deblocator",senator,65.45454545454547
+741202,bobinator aparataj electric,bobinator aparataj electric,acar,67.5
+741209,bobinator transformatoare,bobinator transformatoare,formator/formatoare,68.18181818181819
+811201,brichetator cărbune,brichetator carbune,acar,67.5
+314310,brigadier silvic,brigadier silvic,inspector silvic,62.5
+722414,broșator,brosator,cercetator in conservarea mediului inconjurator,69.23076923076923
+343201,butafor,butafor,brutar/brutareasa,69.23076923076923
+515101,cabanier,cabanier,operator scaner/operatoare scaner,69.23076923076923
+731809,cablator frânghii,cablator franghii,salahor,64.28571428571429
+331101,cambist (broker valori),cambist (broker valori),barista,61.07142857142858
+516201,cameristă hotel,camerista hotel,barista,64.28571428571429
+833205,camionagiu,camionagiu,sofer autocamion,67.5
+341309,catehet,catehet,manager magazin delicatese,69.23076923076923
+912101,călcătoreasă lenjerie,calcatoreasa lenjerie,calcator haine/calcatoreasa haine,69.23076923076923
+111103,chestor Parlament,chestor parlament,director departament universitate,68.82352941176471
+263607,chevrasameș,chevrasames,docher,65.45454545454547
+731304,cizelator clișee galvanice,cizelator clisee galvanice,pivnicer,64.28571428571429
+265902,clovn,clovn,concierge hotel,67.5
+811212,concasorist,concasorist,barista,65.45454545454547
+214110,conceptor/ conceptor CAO,conceptor/ conceptor cao,conservator,63.0
+816034,condiționer miere,conditioner miere,consilier imigrare,68.57142857142857
+812114,condiționer-finisor,conditioner-finisor,istoric,65.45454545454547
+343520,corector (studii medii),corector (studii medii),cosar,67.5
+264202,corector (studii superioare),corector (studii superioare),cosar,67.5
+441303,corector-revizor poligrafie,corector-revizor poligrafie,cosar,67.5
+265224,corist operă,corist opera,cosar,67.5
+912102,curățătoreasă lenjerie,curatatoreasa lenjerie,vanator,64.28571428571429
+812109,curățitor lingouri,curatitor lingouri,lucrator ingrijirea animalelor,67.5
+121109,dealer-șef (arbitragist bancă),dealer-sef (arbitragist banca),acar,67.5
+722315,degresator-imersioner,degresator-imersioner,istoric,64.28571428571429
+111411,delegat sindical,delegat sindical,lucrator in servicii de spalat si calcat/lucratoare in servicii de spalat si calcat,61.875
+111432,delegat sindical local,delegat sindical local,lucrator in servicii de spalat si calcat/lucratoare in servicii de spalat si calcat,57.27272727272727
+111138,deputat,deputat,purtator de cuvant/purtatoare de cuvant,69.23076923076923
+514210,dermopigmentist,dermopigmentist,optometrist,61.53846153846154
+817229,derulatorist,derulatorist,judecator instanta suprema,67.5
+812107,dezbătător lingouri,dezbatator lingouri,vanator,64.28571428571429
+263648,eclesiarh,eclesiarh,tehnician in domeniul nuclear/tehniciana in domeniul nuclear,64.28571428571429
+341304,egumen / egumenă,egumen / egumena,lucrator la punerea in conserve a fructelor si legumelor/lucratoare la punerea in conserve a fructelor si legumelor,58.78125
+263612,episcop,episcop,pilot elicopter,65.76923076923076
+263637,episcop-vicar patriarhal,episcop-vicar patriarhal,acar,67.5
+352104,etaloner,etaloner,cuptorar recoacere metale,69.23076923076923
+263613,exarh,exarh,arheolog,67.5
+711910,fascinar,fascinar,lucrator curatenie piscina,69.23076923076923
+612202,fazanier,fazanier,maistru cazangerie,67.5
+722101,forjor-matrițer,forjor-matriter,sculer-matriter,66.66666666666667
+813202,fotocopist,fotocopist,flebotomist,66.66666666666667
+817231,frezor-îmbinător furnire tehnice,frezor-imbinator furnire tehnice,editor tehnic,67.5
+834307,"funicularist, funiculare pasagere","funicularist, funiculare pasagere",barista,64.28571428571429
+722409,găuritor- filetator,gauritor- filetator,senator,69.23076923076923
+731309,giuvaergiu,giuvaergiu,guvernator al bancii centrale,60.00000000000001
+962902,gonaci,gonaci,concierge hotel,65.45454545454547
+515201,gospodar,gospodar,comerciant en-gros parfumuri si produse cosmetice,67.5
+216612,grafician calculator (studii medii),grafician calculator (studii medii),sculptor,67.5
+812116,granulator zgură,granulator zgura,operator masina granulatoare,66.19354838709677
+962202,gropar,gropar,gravor,66.66666666666667
+263614,haham,haham,asamblor acumulatori,60.00000000000001
+732212,heliografist,heliografist,demograf,67.5
+131101,hidrometeorolog-șef,hidrometeorolog-sef,promoter,67.5
+265904,hipnotizator,hipnotizator,insotitor autobuz scolar,68.57142857142857
+713104,ignifugator,ignifugator,gravor,65.45454545454547
+432306,impiegat registru mișcare,impiegat registru miscare,acar,67.5
+712401,izolator fonic,izolator fonic,dezvoltator blockchain,64.28571428571429
+712402,izolator frigorific,izolator frigorific,critic,65.45454545454547
+712403,izolator hidrofug,izolator hidrofug,senator,62.18181818181819
+818306,îmbuteliator fluide sub presiune,imbuteliator fluide sub presiune,mediator,67.5
+931102,împingător vagoneți,impingator vagoneti,insotitor vagon,64.70588235294117
+731720,încadrator tablouri,incadrator tablouri,acar,67.5
+516906,întreținător textile-piele,intretinator textile-piele,mediator,67.5
+742208,jonctor,jonctor,coordonator admitere,65.76923076923076
+812128,laminator tablă subțire,laminator tabla subtire,mediator,67.5
+812125,"laminator, presator țevi plumb","laminator, presator tevi plumb",mediator,67.5
+214135,logistician gestiune flux,logistician gestiune flux,cioban,68.4
+111214,magistrat-asistent-șef,magistrat-asistent-sef,bagajist,64.28571428571429
+263619,majghian,majghian,editor imagine,64.28571428571429
+732117,manipulant cutter-plotter,manipulant cutter-plotter,manipulant marfuri,67.85714285714286
+421103,"mânuitor valori (presă, poștă)","manuitor valori (presa, posta)",factor postal,65.76923076923076
+263620,melamed,melamed,cercetator in conservarea mediului inconjurator,64.28571428571429
+812105,melanjorist,melanjorist,specialist in configurarea sistemelor it,66.31578947368422
+721426,montator-ajustor spete,montator-ajustor spete,senator,64.28571428571429
+352123,montor emisie,montor emisie,montator geamuri,68.96551724137932
+352110,montor pozitive,montor pozitive,dezvoltator de aplicatii pentru dispozitive mobile,68.4
+835009,motopompist,motopompist,ortoprotezist,66.66666666666667
+712203,mozaicar (exclusiv restaurator),mozaicar (exclusiv restaurator),acar,67.5
+263623,muftiu,muftiu,arhitect in domeniul cloud computing,60.00000000000001
+265246,muzician jazz,muzician jazz,cioban,68.4
+315407,navigator dirijare nonradar,navigator dirijare nonradar,acar,67.5
+315405,navigator dirijare radar,navigator dirijare radar,acar,67.5
+532106,nămolar,namolar,inginer demolari/inginera demolari,69.23076923076923
+441208,oficiant poștă telegrame,oficiant posta telegrame,oficial sportiv,64.28571428571429
+243223,ombudsman,ombudsman,barman,60.00000000000001
+333909,organizator spectacole,organizator spectacole,organizator de nunti,67.41935483870968
+315311,parașutist încercător,parasutist incercator,conservator,66.31578947368422
+752310,pastator cutii chibrituri,pastator cutii chibrituri,senator,65.76923076923076
+621005,pepinierist,pepinierist,barista,65.45454545454547
+352209,pilonist antenist,pilonist antenist,geotehnist,67.5
+226926,podiatru,podiatru,aprod,67.5
+731808,polierator frânghii,polierator franghii,pompier,69.23076923076923
+541201,polițist local,politist local,istoric,64.28571428571429
+818906,pompagiu,pompagiu,pompier industrial,69.23076923076923
+835005,pontonier feribot,pontonier feribot,gunoier,64.28571428571429
+235923,profesor-antrenor,profesor-antrenor,aprod,67.5
+722417,rabotor-mortezor roți dințate,rabotor-mortezor roti dintate,fotoreporter,60.00000000000001
+722411,rabotor-mortezor universal,rabotor-mortezor universal,gunoier,64.28571428571429
+422303,radiotelegrafist,radiotelegrafist,radiolog,69.23076923076923
+265409,realizator emisiuni RTV,realizator emisiuni rtv,operator masini gravat,62.22222222222222
+333102,recepționer contractări-achiziții,receptioner contractari-achizitii,inginer contracte,68.82352941176471
+722418,rectificator dantură caneluri,rectificator dantura caneluri,acar,67.5
+722412,rectificator universal,rectificator universal,prefect,65.45454545454547
+331309,referent,referent,asistent centru de recreere/asistenta centru de recreere,69.23076923076923
+421113,referent operații între sedii,referent operatii intre sedii,prefect,65.45454545454547
+753303,remaieur ciorapi,remaieur ciorapi,cioban,62.18181818181819
+813206,retușor clișee,retusor clisee,preot,67.5
+331305,revizor gestiune,revizor gestiune,regizor de imagine,64.70588235294117
+731810,saluzitor frânghii,saluzitor franghii,editor,68.4
+711903,săpător fântâni,sapator fantani,operator lianti,66.66666666666667
+263632,secretar culte,secretar culte,sergent,69.23076923076923
+412002,secretară dactilografă,secretara dactilografa,dactilograf/dactilografa,69.56521739130434
+818122,securizator geam,securizator geam,curator gradini botanice,66.66666666666667
+811105,semnalist-cuplător,semnalist-cuplator,sculptor,67.5
+265220,solist concertist,solist concertist,analist contabil,60.60606060606061
+265215,solist vocal,solist vocal,petrolist calificat,67.5
+912103,spălătoreasă lenjerie,spalatoreasa lenjerie,salahor,64.28571428571429
+263633,stareț – stareță,staret – stareta,tapetar,69.23076923076923
+413102,stenodactilografă,stenodactilografa,geograf,69.23076923076923
+753302,stopeur,stopeur,operator agregat de cojit/operatoare agregat de cojit,65.45454545454547
+732304,strungar șlefuitor tipografie,strungar slefuitor tipografie,maistru tipograf,69.67741935483872
+722413,strungar universal,strungar universal,gunoier,64.28571428571429
+213228,subinginer îmbunătățiri funciare,subinginer imbunatatiri funciare,acar,67.5
+215211,subinginer reglaje subansamble,subinginer reglaje subansamble,inginer cariere,66.00000000000001
+311539,surveyor fluvial,surveyor fluvial,lucrator motoare nave fluviale,66.66666666666667
+752201,tâmplar universal,tamplar universal,manager magazin universal,65.76923076923076
+711304,"tăietor, șlefuitor, lustruitor piatră, marmură","taietor, slefuitor, lustruitor piatra, marmura",armurier,64.28571428571429
+413107,telebanker,telebanker,depanator telefoane mobile/depanatoare telefoane mobile,63.0
+413104,telefaxist,telefaxist,inginer comunicatii prin satelit/inginera comunicatii prin satelit,60.00000000000001
+721304,tinichigiu industrial,tinichigiu industrial,inginer proiectant utilaje industriale,69.32432432432432
+817213,tocatorist-defibratorist,tocatorist-defibratorist,barista,65.45454545454547
+721108,topitor aliaje tipografie,topitor aliaje tipografie,editor,68.4
+834404,tractorist portuar,tractorist portuar,indrumator activitati portuare,69.67741935483872
+343517,traducător (studii medii),traducator (studii medii),traducator subtitrari,65.21739130434783
+264306,traducător (studii superioare),traducator (studii superioare),traducator subtitrari,66.66666666666667
+264311,translator emisie,translator emisie,agent salvator minier,68.42105263157895
+817216,tratamentist PFL,tratamentist pfl,operator de cuptor de tratament termic/operatoare de cuptor de tratament termic,65.76923076923076
+812147,"trefilator, trăgător","trefilator, tragator",vanator,69.23076923076923
+263634,treibar,treibar,asistent vestiar,65.45454545454547
+932910,umplutor sifoane,umplutor sifoane,operator la masini de ambalat si umplut recipiente/operatoare la masini de ambalat si umplut recipiente,61.559999999999995
+731805,velator-matisor,velator-matisor,patiser,69.23076923076923
+111422,vicepreședinte asociație patronală,vicepresedinte asociatie patronala,presedinte instanta,66.31578947368422
+962401,vidanjor-curățitor canale,vidanjor-curatitor canale,editor,68.4
+265232,video-jockey,video-jockey,disc-jockey,69.56521739130434
+343518,videojurnalist (studii medii),videojurnalist (studii medii),analist costuri,66.00000000000001
+265436,videojurnalist (studii superioare),videojurnalist (studii superioare),analist costuri,66.00000000000001
+713204,vopsitor,vopsitor,operator vopsire imbracaminte din blana,68.4
+713102,"zugrav 4457) 121118* 4458) 121305* 4459) 131113* 4460) 133008* 4461) 211442* 4462) 211443* 4463) 213113* 4464) 213231* 4465) 213235* 4466) 214946* 4467) 216608* 4468) 224001* 4469) 226602* 4470) 235202* 4471) 241252* 4472) 241253* 4473) 241254* 4474) 261102* 4475) 261207* 4476) 261904* 4477) 261905* 4478) 261907* 4479) 261908* 4480) 261909* 4481) 264221* 4482) 265308* 4483) 313112* 4484) 315104* 4485) 315105* 4486) 315106* 4487) 315211* 4488) 325701* 4489) 325702* 4490) 325703* 4491) 325711* 4492) 325713* 4493) 325714* 4494) 325715* 4495) 325725* 4496) 331201* 4497) 333306* 4498) 341102* 4499) 343105* 4500) 352117* 4501) 352118* 4502) 413105* 4503) 413106* 4504) 432108* 4505) 432318* 4506) 441207* 4507) 441212* 4508) 441503* 4509) 441504* 4510) 441505* 4511) 441506* 4512) 441507* 4513) 441508* 4514) 611102* 4515) 721428* 4516) 721429* 4517) 722109* 4518) 731203* 4519) 731204* 4520) 731410* 4521) 731506* 4522) 732107* 4523) 732108* 4524) 732116* 4525) 754106* 4526) 754109* 4527) 811402* 4528) 811405* 4529) 811406* 4530) 811410* 4531) 813132* 4532) 813133* 4533) 815101* 4534) 815102* 4535) 815103* 4536) 815104* 4537) 815105* 4538) 815106* 4539) 815107* 4540) 815108* 4541) 815109* 4542) 815110* 4543) 815114* 4544) 815115* 4545) 815116* 4546) 815117* 4547) 815118* 4548) 815119* 4549) 815120* 4550) 815121* 4551) 815122* 4552) 815123* 4553) 815124* 4554) 815125* 4555) 815126* 4556) 815203* 4557) 815206* 4558) 815213* 4559) 815214* 4560) 815418* 4561) 815419* 4562) 815426* 4563) 815427* 4564) 815429* 4565) 816008* 4566) 816009* 4567) 816012* 4568) 816013* 4569) 817214* 4570) 821210* 4571) 932901* 4572) 932912* 4573) 962402* 4574) 962910* * Codurile vacante au rezultat ca urmare a modificărilor operate în nomenclatorul COR, la solicitarea utilizatorilor, în funcție de schimbările apărute pe piața muncii din România, cum ar fi: mutarea unei ocupații în altă Grupă majoră, Subgrupă majoră, Grupă minoră sau Grupă de bază sau radierea/eliminarea unei ocupații.","zugrav 4457) 121118* 4458) 121305* 4459) 131113* 4460) 133008* 4461) 211442* 4462) 211443* 4463) 213113* 4464) 213231* 4465) 213235* 4466) 214946* 4467) 216608* 4468) 224001* 4469) 226602* 4470) 235202* 4471) 241252* 4472) 241253* 4473) 241254* 4474) 261102* 4475) 261207* 4476) 261904* 4477) 261905* 4478) 261907* 4479) 261908* 4480) 261909* 4481) 264221* 4482) 265308* 4483) 313112* 4484) 315104* 4485) 315105* 4486) 315106* 4487) 315211* 4488) 325701* 4489) 325702* 4490) 325703* 4491) 325711* 4492) 325713* 4493) 325714* 4494) 325715* 4495) 325725* 4496) 331201* 4497) 333306* 4498) 341102* 4499) 343105* 4500) 352117* 4501) 352118* 4502) 413105* 4503) 413106* 4504) 432108* 4505) 432318* 4506) 441207* 4507) 441212* 4508) 441503* 4509) 441504* 4510) 441505* 4511) 441506* 4512) 441507* 4513) 441508* 4514) 611102* 4515) 721428* 4516) 721429* 4517) 722109* 4518) 731203* 4519) 731204* 4520) 731410* 4521) 731506* 4522) 732107* 4523) 732108* 4524) 732116* 4525) 754106* 4526) 754109* 4527) 811402* 4528) 811405* 4529) 811406* 4530) 811410* 4531) 813132* 4532) 813133* 4533) 815101* 4534) 815102* 4535) 815103* 4536) 815104* 4537) 815105* 4538) 815106* 4539) 815107* 4540) 815108* 4541) 815109* 4542) 815110* 4543) 815114* 4544) 815115* 4545) 815116* 4546) 815117* 4547) 815118* 4548) 815119* 4549) 815120* 4550) 815121* 4551) 815122* 4552) 815123* 4553) 815124* 4554) 815125* 4555) 815126* 4556) 815203* 4557) 815206* 4558) 815213* 4559) 815214* 4560) 815418* 4561) 815419* 4562) 815426* 4563) 815427* 4564) 815429* 4565) 816008* 4566) 816009* 4567) 816012* 4568) 816013* 4569) 817214* 4570) 821210* 4571) 932901* 4572) 932912* 4573) 962402* 4574) 962910* * codurile vacante au rezultat ca urmare a modificarilor operate in nomenclatorul cor, la solicitarea utilizatorilor, in functie de schimbarile aparute pe piata muncii din romania, cum ar fi: mutarea unei ocupatii in alta grupa majora, subgrupa majora, grupa minora sau grupa de baza sau radierea/eliminarea unei ocupatii.",activist de campanie electorala,57.0

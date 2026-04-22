@@ -1,0 +1,86 @@
+from __future__ import annotations
+
+import argparse
+import re
+from pathlib import Path
+
+import pandas as pd
+
+
+HEADER_PATTERN = re.compile(r"^\s*Lista ocupațiilor din COR în ordine alfabetică\s*$", re.IGNORECASE)
+PAGE_NUMBER_PATTERN = re.compile(r"^\s*\d+\s*$")
+ENTRY_PATTERN = re.compile(r"\b\d+\)\s*(\d{4,6})\s+", re.IGNORECASE)
+
+
+def normalize_space(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip(" ,;:-")
+
+
+def clean_raw_text(raw_text: str) -> str:
+    lines = raw_text.replace("\r\n", "\n").replace("\r", "\n").split("\n")
+    filtered_lines: list[str] = []
+    for line in lines:
+        if HEADER_PATTERN.match(line):
+            continue
+        if PAGE_NUMBER_PATTERN.match(line):
+            continue
+        filtered_lines.append(line)
+    return "\n".join(filtered_lines)
+
+
+def parse_entries(raw_text: str) -> list[dict[str, str]]:
+    text = clean_raw_text(raw_text)
+    matches = list(ENTRY_PATTERN.finditer(text))
+    rows: list[dict[str, str]] = []
+
+    for index, match in enumerate(matches):
+        start = match.end()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        code = match.group(1)
+        title = normalize_space(text[start:end])
+        if not title:
+            continue
+        rows.append({"cod_cor": code, "denumire_ocupatie": title})
+
+    return rows
+
+
+def build_dataframe(raw_file: Path) -> pd.DataFrame:
+    raw_text = raw_file.read_text(encoding="utf-8", errors="ignore")
+    rows = parse_entries(raw_text)
+    if not rows:
+        raise ValueError("Nu am putut extrage nicio ocupație din fișierul sursă.")
+
+    df = pd.DataFrame(rows)
+    df["cod_cor"] = df["cod_cor"].astype(str).str.strip()
+    df["denumire_ocupatie"] = df["denumire_ocupatie"].astype(str).map(normalize_space)
+
+    df = df.dropna(subset=["cod_cor", "denumire_ocupatie"])
+    df = df[(df["cod_cor"] != "") & (df["denumire_ocupatie"] != "")]
+    df = df.drop_duplicates(subset=["cod_cor", "denumire_ocupatie"], keep="first")
+
+    return df.reset_index(drop=True)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Curăță fișierul brut COR și produce cor_curat.csv")
+    parser.add_argument("--input", default="cor_raw.txt", help="Fișierul sursă text COR")
+    parser.add_argument("--output", default="cor_curat.csv", help="Fișierul CSV rezultat")
+    args = parser.parse_args()
+
+    input_path = Path(args.input)
+    output_path = Path(args.output)
+
+    if not input_path.exists():
+        raise FileNotFoundError(f"Fișierul de input nu există: {input_path}")
+
+    df = build_dataframe(input_path)
+    df.to_csv(output_path, index=False, encoding="utf-8-sig")
+
+    print(f"Salvat: {output_path.resolve()}")
+    print(f"Număr ocupații: {len(df)}")
+    print(df.head(10).to_string(index=False))
+
+
+if __name__ == "__main__":
+    main()

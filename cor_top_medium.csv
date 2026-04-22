@@ -1,0 +1,21 @@
+﻿cod_cor,denumire_ocupatie,denumire_clean,matched_job,match_score,total_skill,essential,optional,knowledge,skill_com,predicted_score,risk_level
+722407,șlefuitor metale,slefuitor metale,slefuitor metale/slefuitoare metale,90.0,44,14,30,18,26,64.83347048827878,medium
+311510,maistru mecanică agricolă,maistru mecanica agricola,inginer mecanica agricola/inginera mecanica agricola,85.5,44,14,30,18,26,64.83347048827878,medium
+131123,președinte cooperativă agricolă,presedinte cooperativa agricola,inginer mecanica agricola/inginera mecanica agricola,85.5,44,14,30,18,26,64.83347048827878,medium
+213239,cercetător în agricultură,cercetator in agricultura,lucrator in agricultura,87.5,47,16,31,21,26,64.63995499583683,medium
+611101,agricultor,agricultor,lucrator in agricultura,81.0,47,16,31,21,26,64.63995499583683,medium
+322102,soră medicală,sora medicala,sora medicala,100.0,60,36,24,24,36,64.62325838495943,medium
+134213,soră medicală șefă,sora medicala sefa,sora medicala,95.0,60,36,24,24,36,64.62325838495943,medium
+214408,inginer mașini-unelte,inginer masini-unelte,inginer masini-unelte/inginera masini-unelte,90.0,52,28,24,18,34,64.4295944896027,medium
+432114,logistician responsabil comenzi,logistician responsabil comenzi,functionar responsabil de gestionarea documentelor/functionara responsabila de gestionarea documentelor,85.5,60,34,26,24,36,64.3029522379694,medium
+214115,responsabil afacere,responsabil afacere,functionar responsabil de gestionarea documentelor/functionara responsabila de gestionarea documentelor,85.5,60,34,26,24,36,64.3029522379694,medium
+121916,responsabil industrializare produs,responsabil industrializare produs,functionar responsabil de gestionarea documentelor/functionara responsabila de gestionarea documentelor,85.5,60,34,26,24,36,64.3029522379694,medium
+441211,responsabil tură expediție,responsabil tura expeditie,functionar responsabil de gestionarea documentelor/functionara responsabila de gestionarea documentelor,85.5,60,34,26,24,36,64.3029522379694,medium
+311529,"tehnician/ tehnician responsabil afacere, metode implantare","tehnician/ tehnician responsabil afacere, metode implantare",functionar responsabil de gestionarea documentelor/functionara responsabila de gestionarea documentelor,85.5,60,34,26,24,36,64.3029522379694,medium
+133043,diriginte oficiu telecomunicații,diriginte oficiu telecomunicatii,asamblor echipamente electrice si telecomunicatii/asambloare echipamente electrice si telecomunicatii,85.5,55,23,32,18,37,64.21476375630209,medium
+741302,electrician exploatare rețele electrice,electrician exploatare retele electrice,asamblor echipamente electrice si telecomunicatii/asambloare echipamente electrice si telecomunicatii,85.5,55,23,32,18,37,64.21476375630209,medium
+742207,electronist telecomunicații,electronist telecomunicatii,asamblor echipamente electrice si telecomunicatii/asambloare echipamente electrice si telecomunicatii,85.5,55,23,32,18,37,64.21476375630209,medium
+214443,specialist mentenanță mecanică echipamente industriale,specialist mentenanta mecanica echipamente industriale,asamblor echipamente electrice si telecomunicatii/asambloare echipamente electrice si telecomunicatii,85.5,55,23,32,18,37,64.21476375630209,medium
+133010,șef atelier telecomunicații,sef atelier telecomunicatii,asamblor echipamente electrice si telecomunicatii/asambloare echipamente electrice si telecomunicatii,85.5,55,23,32,18,37,64.21476375630209,medium
+133027,șef laborator telecomunicații,sef laborator telecomunicatii,asamblor echipamente electrice si telecomunicatii/asambloare echipamente electrice si telecomunicatii,85.5,55,23,32,18,37,64.21476375630209,medium
+133028,șef lot telecomunicații,sef lot telecomunicatii,asamblor echipamente electrice si telecomunicatii/asambloare echipamente electrice si telecomunicatii,85.5,55,23,32,18,37,64.21476375630209,medium

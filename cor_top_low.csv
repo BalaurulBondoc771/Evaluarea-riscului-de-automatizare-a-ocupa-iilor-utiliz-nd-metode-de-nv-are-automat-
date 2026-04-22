@@ -1,0 +1,21 @@
+﻿cod_cor,denumire_ocupatie,denumire_clean,matched_job,match_score,total_skill,essential,optional,knowledge,skill_com,predicted_score,risk_level
+213115,zoolog,zoolog,administrator gradina zoologica,90.0,57,45,12,14,43,26.92156157513062,low
+265410,regizor artistic,regizor artistic,regizor artistic/regizoare artistica,90.0,82,26,56,24,58,28.003477248716916,low
+132450,manager aprovizionare,manager aprovizionare,manager aprovizionare,100.0,99,23,76,24,75,28.980395996700576,low
+343505,maestru de sunet,maestru de sunet,maestru de sunet,100.0,75,44,31,2,73,30.459711515599903,low
+234202,educatoare,educatoare,producator/producatoare,85.26315789473685,55,10,45,12,43,34.00433235606494,low
+341501,educatoare,educatoare,producator/producatoare,85.26315789473685,55,10,45,12,43,34.00433235606494,low
+343504,maestru de lumini,maestru de lumini,maestru de lumini pentru reprezentatii,90.0,71,42,29,3,68,35.33377651421251,low
+333904,impresar teatru,impresar teatru,tehnician teatru/tehniciana teatru,85.5,64,25,39,0,64,36.09608765154594,low
+315201,căpitan fluvial,capitan fluvial,capitan nava de pescuit,85.5,69,46,23,16,53,38.32673890148665,low
+215218,căpitan secund,capitan secund,capitan nava de pescuit,85.5,69,46,23,16,53,38.32673890148665,low
+315202,căpitan port,capitan port,capitan nava de pescuit,85.5,69,46,23,16,53,38.32673890148665,low
+352134,tehnician la echipamente de înregistrare imagine și sunet,tehnician la echipamente de inregistrare imagine si sunet,tehnician echipamente inregistrare sunet,95.0,53,29,24,2,51,38.33218150181931,low
+311104,tehnician determinări fizico-mecanice,tehnician determinari fizico-mecanice,tehnician analiza produselor alimentare/tehniciana analiza produselor alimentare,85.5,71,36,35,17,54,38.367967350031,low
+343503,tehnician reclame (decorator),tehnician reclame (decorator),tehnician analiza produselor alimentare/tehniciana analiza produselor alimentare,85.5,71,36,35,17,54,38.367967350031,low
+311909,tehnician gestiunea producției,tehnician gestiunea productiei,tehnician analiza produselor alimentare/tehniciana analiza produselor alimentare,85.5,71,36,35,17,54,38.367967350031,low
+541106,șef echipă specializată,sef echipa specializata,asistent medical specializat/asistenta medicala specializata,85.5,92,70,22,4,88,38.82811181958856,low
+222102,asistent medical specializat,asistent medical specializat,asistent medical specializat/asistenta medicala specializata,90.0,92,70,22,4,88,38.82811181958856,low
+315303,copilot,copilot,copilot,100.0,52,43,9,10,42,39.08360176038596,low
+516402,coafor canin,coafor canin,designer coafor si make-up,85.5,62,38,24,2,60,39.33795380236461,low
+515107,șef cantină,sef cantina,asistent medical sef,85.5,93,57,36,7,86,39.51975390190612,low

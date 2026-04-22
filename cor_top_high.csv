@@ -1,0 +1,21 @@
+﻿cod_cor,denumire_ocupatie,denumire_clean,matched_job,match_score,total_skill,essential,optional,knowledge,skill_com,predicted_score,risk_level
+821216,confecționer circuite imprimate,confectioner circuite imprimate,confectioner placi circuite imprimate,95.0,48,16,32,18,30,76.14556319283949,high
+817212,formator finisor plăci,formator finisor placi,confectioner placi circuite imprimate,85.5,48,16,32,18,30,76.14556319283949,high
+721208,sudor,sudor,sudor aparate de sudura in puncte,90.0,53,19,34,19,34,71.93053527163322,high
+812215,emailator prin imersiune,emailator prin imersiune,inginer comunicatii prin satelit/inginera comunicatii prin satelit,85.5,49,20,29,24,25,70.64010171921647,high
+812212,emailator prin pudrare,emailator prin pudrare,inginer comunicatii prin satelit/inginera comunicatii prin satelit,85.5,49,20,29,24,25,70.64010171921647,high
+812213,emailator prin pulverizare,emailator prin pulverizare,inginer comunicatii prin satelit/inginera comunicatii prin satelit,85.5,49,20,29,24,25,70.64010171921647,high
+721406,formator țevi prin sudare,formator tevi prin sudare,inginer comunicatii prin satelit/inginera comunicatii prin satelit,85.5,49,20,29,24,25,70.64010171921647,high
+812202,metalizator prin pulverizare,metalizator prin pulverizare,inginer comunicatii prin satelit/inginera comunicatii prin satelit,85.5,49,20,29,24,25,70.64010171921647,high
+722205,prelucrător prin electroeroziune,prelucrator prin electroeroziune,inginer comunicatii prin satelit/inginera comunicatii prin satelit,85.5,49,20,29,24,25,70.64010171921647,high
+133023,șef formație comunicații,sef formatie comunicatii,inginer comunicatii prin satelit/inginera comunicatii prin satelit,85.5,49,20,29,24,25,70.64010171921647,high
+721201,brazor,brazor,brazor/brazoare,90.0,47,18,29,18,29,68.44058877219571,high
+265428,coordonator producție film,coordonator productie film,animator film de animatie/animatoare film de animatie,85.5,48,17,31,19,29,68.06005821974678,high
+265415,secretar șef producție film,secretar sef productie film,animator film de animatie/animatoare film de animatie,85.5,48,17,31,19,29,68.06005821974678,high
+143112,șef atelier producție film,sef atelier productie film,animator film de animatie/animatoare film de animatie,85.5,48,17,31,19,29,68.06005821974678,high
+143111,șef secție producție film,sef sectie productie film,animator film de animatie/animatoare film de animatie,85.5,48,17,31,19,29,68.06005821974678,high
+721308,cazangiu formator,cazangiu formator,cazangiu,90.0,61,22,39,24,37,66.98100198875301,high
+721301,cazangiu recipiente,cazangiu recipiente,cazangiu,90.0,61,22,39,24,37,66.98100198875301,high
+721307,cazangiu țevar,cazangiu tevar,cazangiu,90.0,61,22,39,24,37,66.98100198875301,high
+214538,specialist tehnologia alimentelor,specialist tehnologia alimentelor,cadru didactic in invatamantul superior in stiinta alimentelor,85.5,87,33,54,18,69,66.72061996675221,high
+621006,presator stuf,presator stuf,operator strung,71.42857142857143,61,28,33,30,31,66.68633522679781,high
