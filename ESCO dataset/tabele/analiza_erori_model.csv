@@ -1,0 +1,11 @@
+﻿job,automatic_all_skills,predicted_score,prediction_error,risk_level
+operator mașină cu comandă numerică/operatoare mașină cu comandă numerică,100.0,44.98163868018548,55.01836131981452,high
+secretar artistic,0.0,51.62929851032698,51.62929851032698,low
+intermediar mărfuri,5.0,52.34212704332793,47.34212704332793,low
+manager marketing,10.0,56.73330581975208,46.73330581975208,low
+analist logistică,5.0,50.3483944649832,45.3483944649832,low
+manager logistică și distribuție,15.0,59.88859573738058,44.88859573738058,low
+responsabil scenă,5.0,43.655884350064554,38.655884350064554,low
+ manager activitate transport rutier,15.0,51.76557685510296,36.76557685510296,low
+operator mașini gravat,85.0,50.01598868212139,34.98401131787861,high
+operator mașina de desenat metale,90.0,55.24958944120831,34.75041055879169,high

@@ -1,0 +1,5 @@
+"Modelul de regresie cu LightGBM a obținut o eroare medie absolută de 8.17 puncte pe setul de test. Deși aceasta indică o aproximare utilă a scorului de automatizare, analiza train-test a relevat semne de overfitting: modelul a atins R² de 0.44 pe datele de antrenare, dar R² negativ (-0.04) pe test, sugerând capacitate limitată de generalizare. Cross-validarea pe 5 fold-uri a confirmat această limitare, cu R² mediu de -7.00.
+
+În privința clasificării pe niveluri de risc, modelul a atins 70.23% acuratețe pe setul de test (cu stratificare). Analiza detaliată arată că modelul are dificultăți în detectarea claselor cu reprezentare redusă (HIGH și LOW), iar matrice de confuzie indică tendința de a clasifica majoritatea observațiilor ca MEDIUM.
+
+Aceste rezultate sugerează că feature-urile extrase din skilluri sunt utile pentru aproximări generale, dar nu surprind suficient complexitatea factorilor care determină automatizarea. Îmbunătățirile propuse includ: regularirzare mai strictă a modelelor, augmentare de date, și feature engineering mai avansat."

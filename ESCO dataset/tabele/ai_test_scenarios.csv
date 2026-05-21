@@ -1,0 +1,7 @@
+﻿Job,Total Skills,Essential,Optional,Knowledge,Skill/Comp,Predicted Score,Risk Level
+Job simplu (low-skill),50,10,20,15,25,47.63,MEDIUM
+Job mediu (mid-skill),100,25,50,35,50,45.68,MEDIUM
+Job complex (high-skill),200,60,100,80,100,49.48,MEDIUM
+Job foarte complex,300,100,150,120,150,54.86,MEDIUM
+Job cu multe opționale,150,20,100,40,60,48.89,MEDIUM
+Job cu puține opționale,80,50,10,60,20,59.34,MEDIUM

@@ -1,0 +1,54 @@
+# Medii virtuale Python
+.venv/
+__pycache__/
+*.pyc
+
+# Fișiere generate de dataset.py (se regenerează cu python dataset.py)
+ESCO dataset/rezultate_finale.csv
+ESCO dataset/rezultate_finale_*.csv
+ESCO dataset/rezultate_cu_predictii.csv
+ESCO dataset/dataset_final.csv
+ESCO dataset/ocupatii_cu_skilluri_si_scor.csv
+ESCO dataset/ocupatii_cu_skilluri_si_scor_*.csv
+ESCO dataset/ocupatii_skilluri_ro.csv
+ESCO dataset/ocupatii_skilluri_ro_*.csv
+ESCO dataset/top_ocupatii_*.csv
+ESCO dataset/analiza_erori_model.csv
+ESCO dataset/ai_test_scenarios.csv
+ESCO dataset/ai_comparatie_real_vs_prezis.csv
+ESCO dataset/importanta_variabilelor.csv
+
+# Model antrenat (fișier binar mare)
+ESCO dataset/ai_automation_model.pkl
+
+# Grafice generate
+ESCO dataset/*.png
+ESCO dataset/figuri/*.png
+ESCO dataset/anexe/*.png
+ESCO dataset/COR/*.png
+
+# Fișiere vechi/backup fără extensie
+ESCO dataset/COR/corpy
+ESCO dataset/COR/Site/site
+
+# Outputuri vechi COR (cu sufix numeric)
+ESCO dataset/COR/cor_risk_scored_*.csv
+ESCO dataset/COR/cor_unmatched_*.csv
+
+# Fișiere generate de cor_pipeline.py
+ESCO dataset/COR/cor_risk_scored.csv
+ESCO dataset/COR/cor_unmatched.csv
+ESCO dataset/COR/cor_unmatched_borderline.csv
+ESCO dataset/COR/cor_top_*.csv
+
+# Rapoarte generate
+ESCO dataset/metrici_model.txt
+ESCO dataset/raport_final_ai.txt
+
+# Logs și output-uri de consolă
+output.txt
+*.log
+
+# IDE
+.vscode/
+.idea/

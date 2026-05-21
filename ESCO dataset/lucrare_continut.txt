@@ -1,0 +1,228 @@
+════════════════════════════════════════════════════════════════════
+     CONȚINUT GATA DE PUSE ÎN WORD — PARTE EXPERIMENTALĂ
+════════════════════════════════════════════════════════════════════
+
+
+══════════════════════════════════════════════════
+TABEL 1 — METRICI MODEL (pune direct în Word)
+══════════════════════════════════════════════════
+
+┌────────────────────────────────────┬───────────────┐
+│ Metrică                            │ Valoare       │
+├────────────────────────────────────┼───────────────┤
+│ MAE – Antrenare (Train)            │ 7.68          │
+│ MAE – Testare (Test)               │ 11.03         │
+│ R² – Antrenare (Train)             │ 0.61          │
+│ R² – Testare (Test)                │ 0.196         │
+│ MAE Cross-Validare (5-fold, medie) │ 16.23 ± 9.06  │
+│ R² Cross-Validare (5-fold, medie)  │ -14.21 ± 6.16 │
+│ Acuratețe clasificare (Train)      │ 86.91%        │
+│ Acuratețe clasificare (Test)       │ 55.26%        │
+│ Baseline clasificare (majority)    │ 53.95%        │
+└────────────────────────────────────┴───────────────┘
+
+Notă de subsol recomandat în lucrare:
+„Modelul a fost antrenat pe 80% din date și evaluat pe restul de 20%.
+ Cross-validarea a utilizat 5 fold-uri pe întregul set de date."
+
+
+══════════════════════════════════════════════════
+FIGURA 1 — distributie_automatizare.png
+══════════════════════════════════════════════════
+
+Titlu recomandat în Word:
+„Figura 1. Distribuția scorului de automatizare pentru ocupațiile analizate"
+
+Text de interpretare (gata de pus sub figură):
+
+Figura 1 prezintă distribuția scorului de automatizare calculat pentru
+cele 3.037 de ocupații incluse în analiză. Se observă că majoritatea
+ocupațiilor se concentrează în intervalul 45–65 de puncte, corespunzând
+nivelului mediu de risc. Distribuția este aproximativ unimodală, cu o
+ușoară asimetrie spre dreapta, ceea ce indică faptul că ocupațiile cu
+risc ridicat de automatizare sunt mai puțin frecvente comparativ cu
+cele din zona de risc moderat. Această concentrare centrală reflectă
+natura echilibrată a profilurilor de competențe din baza de date ESCO,
+unde cele mai multe ocupații combină atât skill-uri rutiniere, cât și
+skill-uri de nivel cognitiv superior.
+
+
+══════════════════════════════════════════════════
+FIGURA 2 — distributie_risk_level.png
+══════════════════════════════════════════════════
+
+Titlu recomandat în Word:
+„Figura 2. Distribuția ocupațiilor pe niveluri de risc de automatizare"
+
+Text de interpretare (gata de pus sub figură):
+
+Figura 2 ilustrează împărțirea celor 3.037 de ocupații pe cele trei
+niveluri de risc definite: scăzut (low), mediu (medium) și ridicat
+(high). Clasa dominantă este cea de risc scăzut, cu 1.638 de ocupații
+(53,9%), urmată de clasa de risc mediu cu 1.065 (35,1%) și de risc
+ridicat cu 334 (11,0%).
+
+Distribuția aceasta reflectă structura bazei de date ESCO: ocupațiile
+cu profil cognitiv complex și competențe non-rutiniere predomină,
+ceea ce corespunde unor scoruri de automatizare mici. Dezechilibrul
+dintre clasa de risc ridicat (11,0% din date) față de celelalte clase
+rămâne o caracteristică importantă a setului și limitează capacitatea
+modelelor de clasificare de a detecta corect această categorie. Din
+perspectivă economică, predominanța ocupațiilor cu risc scăzut
+confirmă că baza ESCO tinde să includă profesioniști cu competențe
+de nivel cognitiv superior, mai rezistente la substituirea prin
+automatizare.
+
+
+══════════════════════════════════════════════════
+FIGURA 3 — matrice_confuzie.png
+══════════════════════════════════════════════════
+
+Titlu recomandat în Word:
+„Figura 3. Matrice de confuzie — clasificare pe niveluri de risc (set de test)"
+
+Text de interpretare (gata de pus sub figură):
+
+Figura 3 prezintă matricea de confuzie a modelului de clasificare
+LGBMClassifier, evaluată pe setul de test (20% din date, cu stratificare).
+Modelul a obținut o acuratețe globală de 55,26% pe setul de testare,
+față de 86,91% pe setul de antrenare.
+
+Contextul baseline: un clasificator trivial care prezice întotdeauna
+clasa majoritară (LOW, cu 53,9% din date) ar obține o acuratețe de
+53,95% fără niciun antrenament. Prin urmare, LGBMClassifier depășește
+acest baseline cu +1,32 puncte procentuale (55,26% față de 53,95%),
+ceea ce indică o capacitate informativă marginală reală a modelului.
+Diferența este totuși mică și nu certifică o discriminare robustă.
+
+Analiza pe clase relevă asimetrii importante: clasa „high" (risc
+ridicat) obține recall redus, modelul tinzând să o confunde cu
+clasele adiacente. Clasa „medium" beneficiază de cele mai multe
+predicții corecte (230 din 328 observații de test), reflectând
+reprezentarea sa semnificativă în date (35,1%). Marile discrepanțe
+între performanța pe antrenare (86,91%) și test (55,26%) confirmă
+un overfitting pronunțat. Tehnici de reechilibrare (SMOTE, class
+weighting) și regularizare suplimentară reprezintă direcții imediate
+de îmbunătățire.
+
+
+══════════════════════════════════════════════════
+FIGURA 4 — shap_feature_importance.png
+══════════════════════════════════════════════════
+
+Titlu recomandat în Word:
+„Figura 4. Importanța variabilelor în predicție — analiză SHAP (LightGBM)"
+
+Text de interpretare (gata de pus sub figură):
+
+Figura 4 prezintă importanța medie a fiecărei variabile de intrare în
+predicția scorului de automatizare, calculată prin metoda SHAP
+(SHapley Additive exPlanations). SHAP oferă o măsurătoare locală și
+globală a contribuției fiecărui feature la ieșirea modelului, bazată
+pe teoria jocurilor cooperative.
+
+Graficul arată că variabilele cu cea mai mare influență asupra predicției
+sunt cele care capturează structura generală a skill-urilor unei ocupații:
+numărul total de competențe (total_skill), numărul de competențe
+esențiale (essential) și cele de tip knowledge (knowledge). Variabilele
+cu contribuție mai redusă sunt skill_com și optional, ceea ce sugerează
+că distribuția calitativă a competențelor (esențiale vs. opționale) are
+un impact mai limitat decât volumul total al acestora.
+
+Această analiză validează relevanța feature-urilor selectate și confirmă
+că modelul ia decizii bazate pe caracteristici semnificative din punct
+de vedere economic, nu pe artefacte statistice.
+
+
+══════════════════════════════════════════════════
+PARAGRAF REZUMAT — Rezultate model (pune în corp)
+══════════════════════════════════════════════════
+
+Modelul de regresie antrenat cu algoritmul LightGBM a obținut o eroare
+medie absolută (MAE) de 11,03 puncte pe setul de testare, cu un coeficient
+de determinare R² de 0,196. Valoarea pozitivă a R² indică faptul că
+modelul depășește un predictor trivial (media setului de antrenare, care
+obține R² = 0,00 prin definiție), câștigând o capacitate explicativă
+reală, deși modestă: modelul explică aproximativ 19,6% din varianța
+scorului de automatizare pe date nevăzute. Discrepanța față de R² = 0,61
+pe antrenare semnalează un overfitting semnificativ.
+
+Cross-validarea pe 5 fold-uri nuanțează această concluzie: MAE mediu de
+16,23 (±9,06) și R² mediu de -14,21 (±6,16). Instabilitatea inter-fold
+(std R² = 6,16) indică o sensibilitate ridicată la compoziția foldurilor,
+sugerând că relația dintre feature-urile structurale și scorul euristic
+de automatizare nu este suficient de stabilă și uniformă în date pentru
+a permite o generalizare robustă. Performanța pe setul de test izolat
+(R² = 0,196) poate reflecta parțial un split favorabil, fapt confirmat
+de degradarea severă în cross-validare.
+
+Clasificarea pe trei niveluri de risc atinge o acuratețe de 55,26% pe
+test, depășind marginal un clasificator trivial (clasa majoritară LOW:
+53,95%) cu +1,32 puncte procentuale. Deși pozitiv ca direcție, acest
+avantaj modest (sub 2 pp) nu certifică o discriminare robustă. Îmbunătățiri
+necesare: feature engineering avansat cu indicatori externi (salariu mediu,
+nivel educațional ISCED, intensitate interacțiune socială din O*NET) și
+tehnici de reechilibrare a claselor (SMOTE, class weighting).
+
+
+══════════════════════════════════════════════════
+PARAGRAF LIMITĂRI (secțiunea Concluzii)
+══════════════════════════════════════════════════
+
+Cercetarea prezintă o serie de limitări care trebuie luate în considerare
+în interpretarea rezultatelor. În primul rând, scorul de automatizare
+utilizat ca variabilă țintă este derivat dintr-o euristică bazată pe
+cuvinte-cheie din descrierile de competențe, ceea ce introduce un nivel
+de subiectivitate în etichetarea datelor. O validare externă față de
+scoruri de automatizare publicate (ex. Frey & Osborne, 2013) ar consolida
+robustitea concluziilor.
+
+În al doilea rând, modelul prezintă un overfitting semnificativ
+(R²_train = 0,61; R²_test = 0,196; R²_CV = -14,21). Deși R²_test este
+pozitiv și depășește baseline-ul trivial, degradarea majoră în
+cross-validare (R²_CV = -14,21 ± 6,16) indică instabilitate și
+dependență de compoziția split-ului. Acuratețea clasificatorului
+(55,26%) depășește marginal un clasificator trivial (baseline:
+53,95%), dar diferența de +1,32 pp este prea mică pentru a certifica
+o discriminare robustă. Extinderea setului de predictori prin
+indicatori externi (salariu mediu, nivel educațional ISCED, intensitate
+de interacțiune socială din O*NET) ar putea îmbunătăți semnificativ
+capacitatea de generalizare.
+
+În fine, dezechilibrul claselor (53,9% LOW, 35,1% MEDIUM, 11,0% HIGH)
+limitează performanța clasificatorului pe clasa de risc ridicat,
+cea mai relevantă din perspectivă economică. Tehnici de reechilibrare
+(SMOTE, class weighting) sau sub-sampling al clasei dominante reprezintă
+direcții imediate de îmbunătățire.
+
+
+════════════════════════════════════════════════════════════════════
+STRUCTURA FOLDERELOR (organizare finală)
+════════════════════════════════════════════════════════════════════
+
+ESCO dataset/
+ │
+ ├── figuri/                          ← în corpul lucrării
+ │    ├── distributie_automatizare.png
+ │    ├── distributie_risk_level.png
+ │    ├── matrice_confuzie.png
+ │    └── shap_feature_importance.png
+ │
+ ├── anexe/                           ← în anexe
+ │    ├── shap_summary_plot.png
+ │    └── importanta_variabilelor.png
+ │
+ ├── tabele/                          ← tabele CSV
+ │    ├── top_ocupatii_high_risk.csv
+ │    ├── top_ocupatii_medium_risk.csv
+ │    ├── top_ocupatii_low_risk.csv
+ │    ├── analiza_erori_model.csv
+ │    ├── ai_test_scenarios.csv
+ │    └── ai_comparatie_real_vs_prezis.csv
+ │
+ ├── raport_final_ai.txt              ← raport sistem AI
+ ├── metrici_model.txt                ← toate metricile brute
+ ├── ai_automation_model.pkl          ← model salvat
+ └── dataset.py                       ← codul complet
+
+════════════════════════════════════════════════════════════════════
