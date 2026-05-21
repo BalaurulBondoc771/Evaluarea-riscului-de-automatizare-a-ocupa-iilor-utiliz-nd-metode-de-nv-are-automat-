@@ -35,8 +35,8 @@ ESCO dataset/COR/Site/site
 ESCO dataset/COR/cor_risk_scored_*.csv
 ESCO dataset/COR/cor_unmatched_*.csv
 
-# Fișiere generate de cor_pipeline.py
-ESCO dataset/COR/cor_risk_scored.csv
+# Fișiere generate de cor_pipeline.py (păstrate în repo pentru Streamlit Cloud)
+# ESCO dataset/COR/cor_risk_scored.csv  <- intentionat inclus in repo
 ESCO dataset/COR/cor_unmatched.csv
 ESCO dataset/COR/cor_unmatched_borderline.csv
 ESCO dataset/COR/cor_top_*.csv
