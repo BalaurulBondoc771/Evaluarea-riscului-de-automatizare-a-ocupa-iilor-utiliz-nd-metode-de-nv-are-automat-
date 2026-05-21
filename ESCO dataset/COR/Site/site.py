@@ -29,24 +29,28 @@ st.markdown("""
 <style>
 :root {
     --low:         #2e7d32;
-    --low-bg:      #e8f5e9;
-    --low-border:  #a5d6a7;
+    --low-bg:      #0a1f0b;
+    --low-border:  #1b5e20;
     --med:         #e65100;
-    --med-bg:      #fff3e0;
-    --med-border:  #ffcc80;
-    --high:        #b71c1c;
-    --high-bg:     #ffebee;
-    --high-border: #ef9a9a;
-    --blue:        #1565c0;
-    --surface:     #f8f9fa;
-    --border:      #e0e0e0;
+    --med-bg:      #1a0e00;
+    --med-border:  #8d3000;
+    --high:        #c62828;
+    --high-bg:     #1a0505;
+    --high-border: #7f0000;
+    --accent:      #c62828;
+    --surface:     #1a1a1a;
+    --surface2:    #232323;
+    --border:      #2e2e2e;
+    --text:        #eeeeee;
+    --text-muted:  #999999;
     --r:           10px;
-    --shadow:      0 2px 8px rgba(0,0,0,0.07);
+    --shadow:      0 2px 10px rgba(0,0,0,0.5);
 }
 
 /* ─ Hero ─────────────────────────────────────────────────────────────── */
 .hero {
-    background: linear-gradient(135deg, #0d47a1 0%, #1565c0 60%, #1976d2 100%);
+    background: linear-gradient(135deg, #1a0000 0%, #2d0505 60%, #1a0a0a 100%);
+    border-bottom: 3px solid #c62828;
     color: white;
     padding: 2.2rem 2.5rem;
     border-radius: 14px;
@@ -66,8 +70,8 @@ st.markdown("""
 }
 .hero-tags  { display: flex; gap: 0.5rem; flex-wrap: wrap; }
 .hero-tag {
-    background: rgba(255,255,255,0.16);
-    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(198,40,40,0.25);
+    border: 1px solid rgba(198,40,40,0.5);
     border-radius: 20px;
     padding: 3px 12px;
     font-size: 0.78rem;
@@ -78,8 +82,9 @@ st.markdown("""
 .kpi-row { display: flex; gap: 1rem; margin-bottom: 0.4rem; }
 .kpi-card {
     flex: 1;
-    background: white;
+    background: var(--surface);
     border: 1px solid var(--border);
+    border-top: 3px solid var(--accent);
     border-radius: var(--r);
     padding: 1rem;
     text-align: center;
@@ -88,27 +93,27 @@ st.markdown("""
 .kpi-val {
     font-size: 1.75rem;
     font-weight: 700;
-    color: var(--blue);
+    color: #ef5350;
     line-height: 1;
     margin-bottom: 5px;
 }
 .kpi-lbl {
     font-size: 0.75rem;
-    color: #777;
+    color: var(--text-muted);
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
 /* ─ Disclaimer ───────────────────────────────────────────────────────── */
 .disclaimer {
-    background: #fffde7;
-    border: 1px solid #ffe082;
+    background: #1a1500;
+    border: 1px solid #5d4900;
     border-left: 5px solid #f9a825;
     border-radius: 8px;
     padding: 0.85rem 1.2rem;
     margin: 0.4rem 0 1.1rem 0;
     font-size: 0.88rem;
-    color: #4e342e;
+    color: #ffecb3;
     line-height: 1.6;
 }
 
@@ -118,7 +123,7 @@ st.markdown("""
     align-items: flex-start;
     gap: 1.2rem;
     padding: 1.4rem 1.6rem;
-    background: white;
+    background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--r);
     margin: 0.6rem 0 0.8rem 0;
@@ -132,9 +137,9 @@ st.markdown("""
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
     font-weight: 700;
     flex-shrink: 0;
+    box-shadow: 0 0 18px rgba(0,0,0,0.4);
 }
 .score-num { font-size: 2rem; line-height: 1; }
 .score-sub { font-size: 0.68rem; opacity: 0.85; margin-top: 2px; }
@@ -142,7 +147,7 @@ st.markdown("""
 .job-title {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #1a1a1a;
+    color: var(--text);
     margin: 0 0 7px 0;
     white-space: nowrap;
     overflow: hidden;
@@ -157,8 +162,19 @@ st.markdown("""
     font-size: 0.8rem;
     margin-bottom: 9px;
 }
-.job-meta { font-size: 0.8rem; color: #777; }
+.job-meta { font-size: 0.8rem; color: var(--text-muted); }
 .job-meta span { margin-right: 14px; }
+.score-gauge {
+    height: 6px;
+    background: #333;
+    border-radius: 3px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.score-gauge-fill {
+    height: 6px;
+    border-radius: 3px;
+}
 
 /* ─ Generic section box ──────────────────────────────────────────────── */
 .sec-box {
@@ -173,12 +189,12 @@ st.markdown("""
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.07em;
-    color: #666;
+    color: var(--text-muted);
     margin-bottom: 0.55rem;
 }
 .sec-body {
     font-size: 0.91rem;
-    color: #333;
+    color: var(--text);
     line-height: 1.65;
 }
 
@@ -189,7 +205,7 @@ st.markdown("""
     gap: 9px;
     padding: 4px 0;
     font-size: 0.9rem;
-    color: #333;
+    color: var(--text);
     line-height: 1.4;
 }
 .task-dot {
@@ -208,12 +224,12 @@ st.markdown("""
     font-size: 0.9rem;
     line-height: 1.65;
 }
-.career-low  { background: var(--low-bg);  border: 1px solid var(--low-border);  border-left: 5px solid var(--low);  }
-.career-med  { background: var(--med-bg);  border: 1px solid var(--med-border);  border-left: 5px solid var(--med);  }
+.career-low  { background: var(--low-bg);  border: 1px solid var(--low-border);  border-left: 5px solid var(--low); }
+.career-med  { background: var(--med-bg);  border: 1px solid var(--med-border);  border-left: 5px solid var(--med); }
 .career-high { background: var(--high-bg); border: 1px solid var(--high-border); border-left: 5px solid var(--high); }
-.career-low  .career-body { color: #1b5e20; }
-.career-med  .career-body { color: #bf360c; }
-.career-high .career-body { color: #4a0000; }
+.career-low  .career-body { color: #a5d6a7; }
+.career-med  .career-body { color: #ffcc80; }
+.career-high .career-body { color: #ef9a9a; }
 
 /* ─ Misc ─────────────────────────────────────────────────────────────── */
 .hr-thin { border: none; border-top: 1px solid var(--border); margin: 0.6rem 0 1rem 0; }
@@ -260,11 +276,43 @@ def load_esco_dataset(path: str) -> pd.DataFrame:
 
 
 def risk_color(risk: str) -> str:
-    return {"low": "#2e7d32", "medium": "#e65100", "high": "#b71c1c"}.get(str(risk).lower(), "#555")
+    return {"low": "#2e7d32", "medium": "#e65100", "high": "#c62828"}.get(str(risk).lower(), "#555")
 
 
 def risk_label_ro(risk: str) -> str:
     return {"low": "Scăzut", "medium": "Mediu", "high": "Ridicat"}.get(str(risk).lower(), str(risk))
+
+
+def score_to_color(score: float) -> str:
+    s = max(0.0, min(100.0, float(score)))
+    stops = [
+        (  0,  76, 187, 110),
+        ( 25, 156, 204,  57),
+        ( 45, 255, 193,   7),
+        ( 62, 255, 111,   0),
+        ( 78, 211,  47,  47),
+        ( 90, 139,   0,   0),
+        (100,  26,   0,   0),
+    ]
+    for i in range(len(stops) - 1):
+        s0, r0, g0, b0 = stops[i]
+        s1, r1, g1, b1 = stops[i + 1]
+        if s <= s1 or i == len(stops) - 2:
+            t = (s - s0) / (s1 - s0) if s1 > s0 else 1.0
+            t = max(0.0, min(1.0, t))
+            r = int(r0 + t * (r1 - r0))
+            g = int(g0 + t * (g1 - g0))
+            b = int(b0 + t * (b1 - b0))
+            return f"#{r:02x}{g:02x}{b:02x}"
+    return "#1a0000"
+
+
+def score_text_color(score: float) -> str:
+    hex_c = score_to_color(score)
+    r = int(hex_c[1:3], 16)
+    g = int(hex_c[3:5], 16)
+    b = int(hex_c[5:7], 16)
+    return "#0a0a0a" if (0.299 * r + 0.587 * g + 0.114 * b) / 255 > 0.45 else "#ffffff"
 
 
 def md_bold(text: str) -> str:
@@ -421,10 +469,12 @@ def _tasks_html(tasks: list, dot_color: str) -> str:
 
 
 def render_job_header(row: pd.Series, name_col: str) -> str:
-    score  = float(row["predicted_score"])
-    risk   = str(row.get("risk_level", "")).lower()
-    color  = risk_color(risk)
-    risk_ro = risk_label_ro(risk)
+    score    = float(row["predicted_score"])
+    risk     = str(row.get("risk_level", "")).lower()
+    circ_col = score_to_color(score)
+    txt_col  = score_text_color(score)
+    risk_col = risk_color(risk)
+    risk_ro  = risk_label_ro(risk)
     job_name = str(row.get(name_col, "—"))
 
     meta_parts = []
@@ -438,14 +488,17 @@ def render_job_header(row: pd.Series, name_col: str) -> str:
 
     return f"""
 <div class="job-card-header">
-  <div class="score-circle" style="background:{color};">
+  <div class="score-circle" style="background:{circ_col};color:{txt_col};">
     <div class="score-num">{score:.0f}</div>
     <div class="score-sub">/ 100</div>
   </div>
   <div class="job-info">
     <div class="job-title">{job_name}</div>
-    <div><span class="risk-pill" style="background:{color};">Risc {risk_ro}</span></div>
+    <div><span class="risk-pill" style="background:{risk_col};">Risc {risk_ro}</span></div>
     <div class="job-meta">{"".join(meta_parts)}</div>
+    <div class="score-gauge">
+      <div class="score-gauge-fill" style="width:{score:.0f}%;background:{circ_col};"></div>
+    </div>
   </div>
 </div>"""
 
@@ -633,7 +686,7 @@ with tab_search:
                 render_tasks_box(
                     _AUTOMATABLE_TASKS.get(risk, _AUTOMATABLE_TASKS["medium"]),
                     "⚙️ Sarcini care pot fi automatizate",
-                    "#b71c1c", "#ef9a9a",
+                    "#ef5350", "#c62828",
                 ),
                 unsafe_allow_html=True,
             )
@@ -642,7 +695,7 @@ with tab_search:
                 render_tasks_box(
                     _HUMAN_TASKS.get(risk, _HUMAN_TASKS["medium"]),
                     "🧠 Sarcini greu de automatizat",
-                    "#2e7d32", "#a5d6a7",
+                    "#66bb6a", "#2e7d32",
                 ),
                 unsafe_allow_html=True,
             )
@@ -693,13 +746,14 @@ with tab_charts:
             risk_counts,
             x="label", y="count",
             color="risk_level",
-            color_discrete_map={"low": "#2e7d32", "medium": "#e65100", "high": "#b71c1c"},
+            color_discrete_map={"low": "#2e7d32", "medium": "#e65100", "high": "#c62828"},
             labels={"label": "Nivel risc", "count": "Număr ocupații"},
             text="count",
         )
         fig_bar.update_layout(
             showlegend=False, margin=dict(t=20),
-            plot_bgcolor="white", paper_bgcolor="white",
+            plot_bgcolor="#1a1a1a", paper_bgcolor="#0f0f0f",
+            font=dict(color="#eeeeee"),
         )
         fig_bar.update_traces(textposition="outside")
         st.plotly_chart(fig_bar, use_container_width=True)
@@ -711,15 +765,18 @@ with tab_charts:
             x="predicted_score",
             nbins=25,
             labels={"predicted_score": "Scor automatizare", "count": "Ocupații"},
-            color_discrete_sequence=["#1565c0"],
+            color_discrete_sequence=["#ef5350"],
         )
-        fig_hist.add_vline(x=45, line_dash="dash", line_color="#2e7d32",
-                           annotation_text="Prag low/medium (45)")
-        fig_hist.add_vline(x=65, line_dash="dash", line_color="#b71c1c",
-                           annotation_text="Prag medium/high (65)")
+        fig_hist.add_vline(x=45, line_dash="dash", line_color="#66bb6a",
+                           annotation_text="Prag low/medium (45)",
+                           annotation_font_color="#66bb6a")
+        fig_hist.add_vline(x=65, line_dash="dash", line_color="#ef5350",
+                           annotation_text="Prag medium/high (65)",
+                           annotation_font_color="#ef5350")
         fig_hist.update_layout(
             margin=dict(t=20),
-            plot_bgcolor="white", paper_bgcolor="white",
+            plot_bgcolor="#1a1a1a", paper_bgcolor="#0f0f0f",
+            font=dict(color="#eeeeee"),
         )
         st.plotly_chart(fig_hist, use_container_width=True)
 
@@ -730,7 +787,7 @@ with tab_charts:
             x="total_skill",
             y="predicted_score",
             color="risk_level",
-            color_discrete_map={"low": "#2e7d32", "medium": "#e65100", "high": "#b71c1c"},
+            color_discrete_map={"low": "#2e7d32", "medium": "#e65100", "high": "#c62828"},
             hover_name=name_col,
             labels={
                 "total_skill": "Număr total competențe",
@@ -740,7 +797,8 @@ with tab_charts:
         )
         fig_scatter.update_layout(
             margin=dict(t=20),
-            plot_bgcolor="#fafafa", paper_bgcolor="white",
+            plot_bgcolor="#1a1a1a", paper_bgcolor="#0f0f0f",
+            font=dict(color="#eeeeee"),
         )
         st.plotly_chart(fig_scatter, use_container_width=True)
 
