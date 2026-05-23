@@ -1,0 +1,646 @@
+{
+  "_nota": "Rezultate pre-salvate pentru modul demonstrație. Nu necesită cheie API OpenAI.",
+  "_metodologie": "Scor hibrid: 50% formula deterministica + 50% GPT-4o. scoreChange = finalScore - initialScore (recalculat). replacementRisk ≠ aiImpactScore: primul e probabilitatea disparitiei jobului, al doilea e gradul de transformare.",
+  "_surse_skills": "Skill-urile sunt estimate de GPT-4o pe baza cunostintelor sale despre aceste ocupatii.",
+  "_surse_advancements": "Avanstamentele sunt estimate de GPT-4o; nu sunt extrase in timp real din surse externe.",
+  "examples": [
+    {
+      "matchKeywords": [
+        "contabil",
+        "accountant"
+      ],
+      "jobTitle": "Contabil",
+      "initialScore": 56,
+      "result": {
+        "error": null,
+        "finalAutomationScore": 61,
+        "scoreChange": 5,
+        "confidenceLevel": "medium",
+        "gptSuggestedScore": 62,
+        "deterministicScore": 60,
+        "advancementsBonus": 5.0,
+        "scoringMethod": "hybrid_50_deterministic_50_gpt",
+        "skillsSource": "gpt_estimated",
+        "externalSourcesUsed": false,
+        "externalAdvancementsCount": 0,
+        "fallbackUsed": true,
+        "cacheLastUpdated": null,
+        "replacementRisk": 38,
+        "aiImpactScore": 72,
+        "confidenceReason": "Scorul de încredere mediu reflectă că ocupația de contabil are un profil bine studiat, dar adoptarea AI variază semnificativ între tipuri de firme și niveluri de complexitate contabilă.",
+        "skillAnalysis": [
+          {
+            "skill": "Înregistrare operații contabile",
+            "difficulty": "low",
+            "automationRisk": "high",
+            "reason": "Task repetitiv și standardizat, automatizabil prin RPA și software de contabilitate cu AI. Instrumente precum QuickBooks AI sau SAP preiau deja aceste sarcini."
+          },
+          {
+            "skill": "Reconciliere bancară",
+            "difficulty": "low",
+            "automationRisk": "high",
+            "reason": "Compararea automată a datelor dintre extrasul bancar și registrul contabil este un task ideal pentru automatizare completă."
+          },
+          {
+            "skill": "Pregătire declarații fiscale standard",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "Parțial automatizabil pentru cazuri standard, dar situațiile excepționale și interpretarea legilor fiscale necesită judecată umană."
+          },
+          {
+            "skill": "Raportare financiară",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "AI poate genera rapoarte standard din date structurate, dar interpretarea strategică și comunicarea cu managementul rămân umane."
+          },
+          {
+            "skill": "Consiliere financiară clienți",
+            "difficulty": "high",
+            "automationRisk": "low",
+            "reason": "Necesită context specific clientului, empatie și responsabilitate personalizată — greu de automatizat în orizontul previzibil."
+          },
+          {
+            "skill": "Verificare conformitate (audit intern)",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "Regulile sunt standardizabile, dar interpretarea excepțiilor și responsabilitatea legală rămân activități umane."
+          }
+        ],
+        "vulnerableSkills": [
+          "Înregistrare operații contabile",
+          "Reconciliere bancară",
+          "Pregătire declarații fiscale standard"
+        ],
+        "protectedSkills": [
+          "Consiliere financiară clienți",
+          "Audit complex",
+          "Relații cu clienții și managementul"
+        ],
+        "relevantTechnologicalAdvancements": [
+          {
+            "title": "Robotic Process Automation cu AI (UiPath, Automation Anywhere)",
+            "affectedSkills": [
+              "Înregistrare operații contabile",
+              "Reconciliere bancară",
+              "Raportare financiară"
+            ],
+            "maturity": "high",
+            "impact": "high",
+            "reason": "RPA cu AI automatizează task-uri contabile repetitive bazate pe reguli, reducând nevoia de intervenție umană pentru procesele standard.",
+            "sourceType": "gpt_estimated"
+          },
+          {
+            "title": "AI pentru analiză financiară și audit (BloombergGPT, FinGPT)",
+            "affectedSkills": [
+              "Raportare financiară",
+              "Verificare conformitate"
+            ],
+            "maturity": "high",
+            "impact": "medium",
+            "reason": "Modele AI specializate pot analiza date financiare și detecta anomalii, dar responsabilitatea legală finală rămâne umană.",
+            "sourceType": "gpt_estimated"
+          }
+        ],
+        "recommendations": [
+          {
+            "skill": "Consiliere financiară strategică",
+            "reason": "Implică judecată contextuală, empatie și responsabilitate personalizată — caracteristici greu de automatizat."
+          },
+          {
+            "skill": "Interpretare și comunicare date financiare complexe",
+            "reason": "Traducerea cifrelor în decizii de business necesită context organizațional și abilități relaționale."
+          },
+          {
+            "skill": "Utilizarea AI ca instrument de productivitate",
+            "reason": "Contabilii care stăpânesc uneltele AI vor lucra mai eficient și vor rămâne relevanți pe piața muncii."
+          },
+          {
+            "skill": "Planificare fiscală și optimizare",
+            "reason": "Strategia fiscală complexă necesită cunoaștere legislativă actualizată și judecată profesională."
+          }
+        ],
+        "transferableSkills": [
+          "Analiză de date financiare",
+          "Atenție la detalii",
+          "Raportare și documentare",
+          "Utilizare software financiar"
+        ],
+        "alternativeOccupations": [
+          {
+            "title": "Consultant financiar",
+            "reason": "Implică consiliere strategică cu componente relaționale mai puternice și mai greu de automatizat."
+          },
+          {
+            "title": "Auditor intern",
+            "reason": "Necesită judecată contextuală, responsabilitate legală ridicată și investigare activă — mai puțin automatizabil."
+          },
+          {
+            "title": "Controller financiar",
+            "reason": "Rol strategic cu responsabilitate decizională directă, orientat spre analiză și mai puțin spre operațiunile de rutină."
+          }
+        ],
+        "finalExplanation": "Estimarea sugerează că ocupația de contabil prezintă un risc mediu-ridicat de automatizare (scor ajustat: 61/100). Task-urile de rutină — înregistrare, reconciliere bancară și raportare standard — sunt puternic afectate de RPA și AI financiar. Totuși, consilierea financiară personalizată, auditul complex și responsabilitatea legală rămân dificil de automatizat. Probabilitatea de înlocuire completă este moderată (38%), dar impactul AI asupra modului de lucru este semnificativ (72%): contabilii care adoptă AI vor lucra diferit, nu neapărat vor dispărea.",
+        "scoreAdjustmentReason": "Scorul a crescut cu 5 puncte față de estimarea AI 1 (56→61) deoarece instrumentele RPA și AI financiar afectează direct task-urile repetitive dominante în acest profil ocupațional.",
+        "limitations": "Această analiză reprezintă o estimare probabilistică bazată pe informații disponibile. Nu constituie o predicție certă privind evoluția pieței muncii."
+      }
+    },
+    {
+      "matchKeywords": [
+        "designer",
+        "grafician",
+        "graphic"
+      ],
+      "jobTitle": "Designer grafic",
+      "initialScore": 48,
+      "result": {
+        "error": null,
+        "finalAutomationScore": 49,
+        "scoreChange": 1,
+        "confidenceLevel": "medium",
+        "gptSuggestedScore": 52,
+        "deterministicScore": 46,
+        "advancementsBonus": 3.0,
+        "scoringMethod": "hybrid_50_deterministic_50_gpt",
+        "skillsSource": "gpt_estimated",
+        "externalSourcesUsed": false,
+        "externalAdvancementsCount": 0,
+        "fallbackUsed": true,
+        "cacheLastUpdated": null,
+        "replacementRisk": 28,
+        "aiImpactScore": 75,
+        "confidenceReason": "Nivelul de încredere mediu reflectă că impactul AI variază mult în funcție de tipul de design: sarcini vizuale repetitive sunt puternic afectate, dar componenta strategică și de brand rămâne protejată.",
+        "skillAnalysis": [
+          {
+            "skill": "Editare imagini digitale de rutină",
+            "difficulty": "low",
+            "automationRisk": "high",
+            "reason": "Instrumente AI precum Adobe Firefly și Canva AI pot automatiza editarea foto standard și retușul de rutină."
+          },
+          {
+            "skill": "Generare concepte vizuale",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "AI poate genera variante vizuale, dar selecția strategică și rafinamentul care respectă identitatea de brand rămân umane."
+          },
+          {
+            "skill": "Design layout publicitar",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "AI poate sugera layout-uri bazate pe reguli de design, dar judecata estetică finală și adaptarea la context cultural rămân umane."
+          },
+          {
+            "skill": "Strategie vizuală de brand",
+            "difficulty": "high",
+            "automationRisk": "low",
+            "reason": "Necesită înțelegerea profundă a valorilor organizaționale, a publicului-țintă și context cultural — activitate profund umană."
+          },
+          {
+            "skill": "Comunicare și negociere cu clienții",
+            "difficulty": "high",
+            "automationRisk": "low",
+            "reason": "Negocierea cerințelor, feedback-ul iterativ și gestionarea așteptărilor sunt activități uman-centrice, greu de substituit."
+          }
+        ],
+        "vulnerableSkills": [
+          "Editare imagini de rutină",
+          "Generare variante vizuale repetitive",
+          "Vectorizare automată"
+        ],
+        "protectedSkills": [
+          "Strategie vizuală de brand",
+          "Comunicare cu clienții",
+          "Creativitate conceptuală"
+        ],
+        "relevantTechnologicalAdvancements": [
+          {
+            "title": "Generative AI pentru imagini (DALL-E 3, Midjourney v6, Stable Diffusion 3)",
+            "affectedSkills": [
+              "Editare imagini de rutină",
+              "Generare concepte vizuale"
+            ],
+            "maturity": "high",
+            "impact": "medium",
+            "reason": "Generarea de imagini AI accelerează producția de conținut vizual repetitiv, dar creativitatea strategică și identitatea de brand rămân umane.",
+            "sourceType": "gpt_estimated"
+          },
+          {
+            "title": "AI tools pentru design (Adobe Firefly, Canva AI, Figma AI)",
+            "affectedSkills": [
+              "Design layout publicitar",
+              "Editare imagini de rutină"
+            ],
+            "maturity": "high",
+            "impact": "medium",
+            "reason": "Integrarea AI în tooling-ul de design automatizează sarcinile repetitive, dar designerul rămâne cel care ghidează direcția creativă.",
+            "sourceType": "gpt_estimated"
+          }
+        ],
+        "recommendations": [
+          {
+            "skill": "Direcție creativă și strategie de brand",
+            "reason": "Rolul de director creativ necesită viziune, context cultural și judecată strategică — imposibil de automatizat complet."
+          },
+          {
+            "skill": "Comunicare cu clienții și management de proiect",
+            "reason": "Înțelegerea nevoilor clientului și gestionarea așteptărilor sunt activități relaționale esențiale."
+          },
+          {
+            "skill": "Utilizarea AI generativ ca instrument, nu ca substitut",
+            "reason": "Designerii care folosesc AI pentru productivitate și nu sunt înlocuiți de el vor fi cei mai valoroși pe piața muncii."
+          },
+          {
+            "skill": "UX Design și cercetare de utilizator",
+            "reason": "Înțelegerea comportamentului uman și design centrat pe utilizator sunt skill-uri cu cerere crescândă și risc scăzut."
+          }
+        ],
+        "transferableSkills": [
+          "Gândire vizuală",
+          "Comunicare creativă",
+          "Atenție la detalii estetice",
+          "Utilizare software creativ"
+        ],
+        "alternativeOccupations": [
+          {
+            "title": "Director de creație",
+            "reason": "Implică leadership creativ și viziune strategică, mai greu de automatizat decât execuția."
+          },
+          {
+            "title": "UX / Product Designer",
+            "reason": "Combină designul cu cercetarea de utilizator și judecata contextuală complexă — risc mai scăzut."
+          },
+          {
+            "title": "Brand Strategist",
+            "reason": "Necesită înțelegere profundă a identității de brand, psihologie și strategie de comunicare."
+          }
+        ],
+        "finalExplanation": "Estimarea sugerează că designerul grafic prezintă un risc mediu de automatizare (scor ajustat: 49/100). Contrastul central: replacementRisk (28/100) vs aiImpactScore (75/100). AI-ul generativ (DALL-E 3, Midjourney, Firefly) automatizează editarea de rutină și generarea de variante vizuale, transformând radical fluxul de lucru — dar designerul nu dispare. Componenta strategică — identitatea de brand, direcția creativă și comunicarea cu clientul — rămâne profund umană. Designerii care adoptă AI ca instrument de productivitate vor produce mai mult în mai puțin timp, fără a-și pierde rolul creativ esențial.",
+        "scoreAdjustmentReason": "Scorul a crescut marginal (+1) deoarece, deși AI-ul afectează task-urile de rutină, componentele creative și strategice protejează în continuare această ocupație de automatizare completă.",
+        "limitations": "Această analiză reprezintă o estimare probabilistică bazată pe informații disponibile. Nu constituie o predicție certă privind evoluția pieței muncii."
+      }
+    },
+    {
+      "matchKeywords": [
+        "asistent medical",
+        "nurse",
+        "asistent",
+        "infirmier",
+        "infirmiera"
+      ],
+      "jobTitle": "Asistent medical",
+      "initialScore": 30,
+      "result": {
+        "error": null,
+        "finalAutomationScore": 33,
+        "scoreChange": 3,
+        "confidenceLevel": "medium",
+        "gptSuggestedScore": 34,
+        "deterministicScore": 32,
+        "advancementsBonus": 1.5,
+        "scoringMethod": "hybrid_50_deterministic_50_gpt",
+        "skillsSource": "gpt_estimated",
+        "externalSourcesUsed": false,
+        "externalAdvancementsCount": 0,
+        "fallbackUsed": true,
+        "cacheLastUpdated": null,
+        "replacementRisk": 12,
+        "aiImpactScore": 45,
+        "confidenceReason": "Nivelul de încredere mediu reflectă că, deși componenta de îngrijire directă este clar protejată, gradul de automatizare a documentării și monitorizării variază între sisteme de sănătate și tipuri de unități medicale.",
+        "skillAnalysis": [
+          {
+            "skill": "Îngrijire directă a pacienților",
+            "difficulty": "high",
+            "automationRisk": "low",
+            "reason": "Empatia, atingerea umană și adaptarea continuă la starea pacientului sunt esențiale și extrem de dificil de automatizat."
+          },
+          {
+            "skill": "Administrare medicamente",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "Sistemele automate pot asista distribuția medicamentelor, dar verificarea finală și responsabilitatea clinică rămân umane."
+          },
+          {
+            "skill": "Documentare medicală și note clinice",
+            "difficulty": "low",
+            "automationRisk": "high",
+            "reason": "NLP medical (Nuance DAX, Med-PaLM) poate transcrie și structura automat notele clinice în timp real."
+          },
+          {
+            "skill": "Monitorizare parametri vitali",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "Dispozitivele IoT pot colecta automat datele, dar interpretarea clinică și decizia de intervenție rămân umane."
+          },
+          {
+            "skill": "Comunicare cu pacienții și familiile",
+            "difficulty": "high",
+            "automationRisk": "low",
+            "reason": "Suportul emoțional, comunicarea empatică și managementul anxietății sunt activități profund umane, indispensabile în îngrijire."
+          }
+        ],
+        "vulnerableSkills": [
+          "Documentare medicală de rutină",
+          "Introducere date în sistemul clinic"
+        ],
+        "protectedSkills": [
+          "Îngrijire directă a pacienților",
+          "Comunicare empatică",
+          "Decizii clinice de urgență"
+        ],
+        "relevantTechnologicalAdvancements": [
+          {
+            "title": "NLP pentru documentare medicală (Nuance DAX, Med-PaLM 2)",
+            "affectedSkills": [
+              "Documentare medicală și note clinice",
+              "Introducere date în sistemul clinic"
+            ],
+            "maturity": "growing",
+            "impact": "medium",
+            "reason": "NLP medical poate prelua documentarea de rutină, eliberând asistentul medical pentru sarcini de îngrijire directă.",
+            "sourceType": "gpt_estimated"
+          }
+        ],
+        "recommendations": [
+          {
+            "skill": "Comunicare clinică avansată și empatie",
+            "reason": "Skill esențial și profund protejat — comunicarea umană rămâne nucleul îngrijirii medicale."
+          },
+          {
+            "skill": "Utilizarea dispozitivelor medicale digitale",
+            "reason": "Competențele digitale medicale (IoT, monitorizare inteligentă) cresc valoarea profesionistului în sistem."
+          },
+          {
+            "skill": "Îngrijire paliativă și suport psihologic",
+            "reason": "Dimensiunile de suport emoțional și paliativ sunt extrem de protejate față de automatizare."
+          },
+          {
+            "skill": "Coordonare inter-departamentală",
+            "reason": "Coordonarea îngrijirii între specialiști necesită judecată contextuală și comunicare umană."
+          }
+        ],
+        "transferableSkills": [
+          "Îngrijire și empatie",
+          "Comunicare cu persoane vulnerabile",
+          "Observație clinică",
+          "Muncă sub presiune"
+        ],
+        "alternativeOccupations": [
+          {
+            "title": "Coordonator de îngrijire",
+            "reason": "Implică coordonare interinstituțională și comunicare, mai complex de automatizat."
+          },
+          {
+            "title": "Educator medical",
+            "reason": "Transmiterea cunoștințelor medicale și formarea pacienților necesită prezență umană și adaptabilitate."
+          }
+        ],
+        "finalExplanation": "Estimarea sugerează că ocupația de asistent medical prezintă un risc scăzut de automatizare (scor ajustat: 33/100). Componentele centrale — îngrijirea directă, comunicarea empatică și responsabilitatea clinică — sunt profund umane și dificil de substituit. Singurul task semnificativ afectat este documentarea medicală, care poate fi parțial automatizată prin NLP. Probabilitatea de înlocuire completă este foarte scăzută (12%), iar impactul AI este moderat (45%) — tehnologia va ajuta, nu va înlocui.",
+        "scoreAdjustmentReason": "Scorul a crescut modest (+3) datorită impactului NLP asupra documentării de rutină, însă protecția oferită de îngrijirea directă și responsabilitatea etică limitează riscul global.",
+        "limitations": "Această analiză reprezintă o estimare probabilistică bazată pe informații disponibile. Nu constituie o predicție certă privind evoluția pieței muncii."
+      }
+    },
+    {
+      "matchKeywords": [
+        "profesor",
+        "teacher",
+        "educator",
+        "invatator",
+        "învățător",
+        "invatamant",
+        "învățământ"
+      ],
+      "jobTitle": "Profesor",
+      "initialScore": 24,
+      "result": {
+        "error": null,
+        "finalAutomationScore": 28,
+        "scoreChange": 4,
+        "confidenceLevel": "high",
+        "gptSuggestedScore": 27,
+        "deterministicScore": 28,
+        "advancementsBonus": 0.5,
+        "scoringMethod": "hybrid_50_deterministic_50_gpt",
+        "skillsSource": "gpt_estimated",
+        "externalSourcesUsed": false,
+        "externalAdvancementsCount": 0,
+        "fallbackUsed": true,
+        "cacheLastUpdated": null,
+        "replacementRisk": 8,
+        "aiImpactScore": 65,
+        "confidenceReason": "Nivelul de încredere ridicat reflectă consensul larg din literatura de specialitate că profesia didactică este protejată de dimensiunile relaționale, motivaționale și de formare a caracterului — imposibil de redus la procese algoritmice.",
+        "skillAnalysis": [
+          {
+            "skill": "Predare și explicare concepte",
+            "difficulty": "high",
+            "automationRisk": "low",
+            "reason": "Adaptarea explicațiilor la stilul de înțelegere al fiecărui elev necesită empatie, observație continuă și flexibilitate pedagogică."
+          },
+          {
+            "skill": "Design curriculum și planificare",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "AI poate sugera structuri de curriculum și resurse, dar adaptarea la contextul local și nevoile specifice ale clasei rămâne umană."
+          },
+          {
+            "skill": "Corectare lucrări și testare obiectivă",
+            "difficulty": "low",
+            "automationRisk": "high",
+            "reason": "Corectarea automată a testelor cu răspunsuri obiective este deja disponibilă și larg utilizată în platformele e-learning."
+          },
+          {
+            "skill": "Mentorat și consiliere elevi",
+            "difficulty": "high",
+            "automationRisk": "low",
+            "reason": "Suportul pentru dezvoltarea personală, orientarea vocațională și gestionarea problemelor emoționale necesită prezență umană autentică."
+          },
+          {
+            "skill": "Management clasă și dinamică de grup",
+            "difficulty": "high",
+            "automationRisk": "low",
+            "reason": "Gestionarea conflictelor, motivarea colectivă și crearea unui climat educațional sunt activități profund umane și contextuale."
+          }
+        ],
+        "vulnerableSkills": [
+          "Corectare lucrări obiective",
+          "Gestionare absențe și note (administrativ)"
+        ],
+        "protectedSkills": [
+          "Mentorat și relația pedagog-elev",
+          "Predare adaptivă",
+          "Management de clasă"
+        ],
+        "relevantTechnologicalAdvancements": [
+          {
+            "title": "AI pentru educație personalizată (Khan Academy Khanmigo, Duolingo AI)",
+            "affectedSkills": [
+              "Design curriculum",
+              "Corectare lucrări obiective"
+            ],
+            "maturity": "growing",
+            "impact": "low",
+            "reason": "AI-ul personalizează conținutul educațional și oferă feedback instant, dar relația educator-elev și mentoratul rămân esențiale.",
+            "sourceType": "gpt_estimated"
+          }
+        ],
+        "recommendations": [
+          {
+            "skill": "Mentorat și consiliere individualizată",
+            "reason": "Dimensiunea de mentorat personal este considerată cel mai protejat aspect al profesiei didactice față de automatizare."
+          },
+          {
+            "skill": "Pedagogie diferențiată și adaptativă",
+            "reason": "Capacitatea de a adapta predarea la diversele stiluri de învățare și nevoi ale elevilor este un avantaj uman esențial."
+          },
+          {
+            "skill": "Utilizarea platformelor educaționale AI",
+            "reason": "Profesorii care integrează eficient uneltele AI în predare vor fi mai productivi și relevanți."
+          },
+          {
+            "skill": "Educație socio-emoțională",
+            "reason": "Formarea competențelor socio-emoționale și caracterului elevilor este profund umană și în cerere crescândă."
+          }
+        ],
+        "transferableSkills": [
+          "Comunicare și prezentare",
+          "Organizare și planificare",
+          "Empatie și ascultare activă",
+          "Leadership educațional"
+        ],
+        "alternativeOccupations": [
+          {
+            "title": "Trainer corporativ",
+            "reason": "Valorifică skill-urile pedagogice în context organizațional cu autonomie mai mare și remunerație mai bună."
+          },
+          {
+            "title": "Designer instrucțional (e-learning)",
+            "reason": "Combină pedagogia cu design-ul de conținut digital — domeniu în expansiune, cu risc de automatizare mai scăzut."
+          }
+        ],
+        "finalExplanation": "Estimarea sugerează că ocupația de profesor prezintă un risc scăzut de automatizare (scor ajustat: 28/100). Cheia acestui profil o reprezintă contrastul dintre replacementRisk (8/100) și aiImpactScore (65/100): jobul nu va dispărea, dar modul de lucru se va transforma semnificativ. Predarea adaptivă, mentoratul și managementul clasei rămân profund umane — AI-ul nu poate înlocui prezența, empatia și autoritatea pedagogică. În schimb, corectarea testelor obiective, pregătirea materialelor și administrarea vor fi parțial automatizate. Profesorul viitorului va orchestra instrumente AI, nu va fi înlocuit de ele — aceasta este distincția esențială pe care modelul o surprinde.",
+        "scoreAdjustmentReason": "Scorul a crescut cu 4 puncte față de estimarea AI 1 (24→28), reflectând impactul limitat al platformelor educaționale AI asupra componentelor de rutină, fără a afecta miezul profesiei.",
+        "limitations": "Această analiză reprezintă o estimare probabilistică bazată pe informații disponibile. Nu constituie o predicție certă privind evoluția pieței muncii."
+      }
+    },
+    {
+      "matchKeywords": [
+        "programator",
+        "informatician",
+        "analist",
+        "software",
+        "developer",
+        "informatica"
+      ],
+      "jobTitle": "Analist programator",
+      "initialScore": 44,
+      "result": {
+        "error": null,
+        "finalAutomationScore": 48,
+        "scoreChange": 4,
+        "confidenceLevel": "medium",
+        "gptSuggestedScore": 47,
+        "deterministicScore": 48,
+        "advancementsBonus": 1.5,
+        "scoringMethod": "hybrid_50_deterministic_50_gpt",
+        "skillsSource": "gpt_estimated",
+        "externalSourcesUsed": false,
+        "externalAdvancementsCount": 0,
+        "fallbackUsed": true,
+        "cacheLastUpdated": null,
+        "replacementRisk": 22,
+        "aiImpactScore": 80,
+        "confidenceReason": "Nivelul de încredere mediu reflectă că impactul AI asupra programării evoluează rapid și este dificil de cuantificat pe termen mediu-lung — domeniu de frontieră al automatizării.",
+        "skillAnalysis": [
+          {
+            "skill": "Scriere cod de rutină (boilerplate)",
+            "difficulty": "low",
+            "automationRisk": "medium",
+            "reason": "AI (GitHub Copilot, Cursor) completează eficient cod de rutină, dar logica de business complexă și deciziile de design rămân umane."
+          },
+          {
+            "skill": "Debugging și rezolvare bug-uri",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "AI detectează erori comune și sugerează remedieri, dar debugging-ul arhitectural și erorile de concurență necesită raționament uman profund."
+          },
+          {
+            "skill": "Arhitectura sistemelor software",
+            "difficulty": "high",
+            "automationRisk": "low",
+            "reason": "Deciziile de arhitectură, trade-off-urile tehnice și scalabilitatea necesită judecată contextuală complexă, greu de automatizat."
+          },
+          {
+            "skill": "Code review și asigurarea calității",
+            "difficulty": "medium",
+            "automationRisk": "medium",
+            "reason": "AI detectează pattern-uri și vulnerabilități standard, dar reviewul calitativ — lizibilitate, coeziune, intenție — rămâne uman."
+          },
+          {
+            "skill": "Scriere teste automate (unit testing)",
+            "difficulty": "low",
+            "automationRisk": "high",
+            "reason": "Generarea de teste unitare pentru cod existent este deja automatizabilă cu instrumente AI specializate (GitHub Copilot, Diffblue)."
+          }
+        ],
+        "vulnerableSkills": [
+          "Scriere teste unitare de rutină",
+          "Generare cod boilerplate",
+          "Documentare cod standard"
+        ],
+        "protectedSkills": [
+          "Arhitectura sistemelor",
+          "Decizii de design tehnic",
+          "Comunicare cu echipa și stakeholderii"
+        ],
+        "relevantTechnologicalAdvancements": [
+          {
+            "title": "AI pentru generare de cod (GitHub Copilot, Cursor, Devin)",
+            "affectedSkills": [
+              "Scriere cod de rutină",
+              "Scriere teste automate"
+            ],
+            "maturity": "high",
+            "impact": "medium",
+            "reason": "Instrumentele AI accelerează semnificativ scrierea codului de rutină, reducând volumul de muncă repetitiv, fără a înlocui raționamentul arhitectural.",
+            "sourceType": "gpt_estimated"
+          }
+        ],
+        "recommendations": [
+          {
+            "skill": "Arhitectura și design-ul sistemelor complexe",
+            "reason": "Gândirea sistemică și deciziile de arhitectură necesită judecată holistică și experiență — extrem de greu de automatizat."
+          },
+          {
+            "skill": "Orchestrarea și evaluarea uneltelor AI",
+            "reason": "Programatorii care știu să aleagă, să integreze și să evalueze uneltele AI vor fi cei mai valoroși în noua piață."
+          },
+          {
+            "skill": "Comunicare tehnică cu stakeholderii non-tehnici",
+            "reason": "Traducerea cerințelor de business în soluții tehnice necesită abilități de comunicare și empatie organizațională."
+          },
+          {
+            "skill": "Securitate informatică și privacy by design",
+            "reason": "Responsabilitatea în securitate crește odată cu digitalizarea — skill cu cerere în continuă creștere."
+          }
+        ],
+        "transferableSkills": [
+          "Rezolvare probleme complexe",
+          "Gândire logică și abstractă",
+          "Documentare și comunicare tehnică",
+          "Colaborare în echipă multidisciplinară"
+        ],
+        "alternativeOccupations": [
+          {
+            "title": "Arhitect de sistem",
+            "reason": "Necesită viziune holistică și decizii de design complexe — mai greu de automatizat decât scrierea de cod."
+          },
+          {
+            "title": "Product Manager tehnic",
+            "reason": "Combină cunoștințele tehnice cu managementul de produs și comunicarea cu stakeholderii — risc mai scăzut."
+          }
+        ],
+        "finalExplanation": "Estimarea sugerează că ocupația de analist programator prezintă un risc mediu de automatizare (scor ajustat: 48/100). Instrumentele AI pentru generare de cod (Copilot, Cursor) afectează în mod real task-urile repetitive, dar arhitectura software, debugging-ul complex și comunicarea cu echipa rămân activități profund umane. Importantă diferența: riscul de înlocuire completă este moderat (22%), dar impactul AI asupra modului de lucru este foarte ridicat (80%). Programatorii vor lucra fundamental diferit — vor orchestra AI, vor valida output-ul și se vor concentra pe probleme complexe.",
+        "scoreAdjustmentReason": "Scorul a crescut cu 4 puncte față de estimarea AI 1 (44→48) deoarece instrumentele AI pentru cod sunt deja larg adoptate și afectează direct task-urile de rutină, chiar dacă arhitectura și judecata tehnică rămân umane.",
+        "limitations": "Această analiză reprezintă o estimare probabilistică bazată pe informații disponibile. Nu constituie o predicție certă privind evoluția pieței muncii."
+      }
+    }
+  ]
+}

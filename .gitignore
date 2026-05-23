@@ -52,3 +52,10 @@ output.txt
 # IDE
 .vscode/
 .idea/
+
+# Secrete — NU se urcă pe GitHub niciodată
+.streamlit/secrets.toml
+
+# Cache local advancement-uri (generat local, nu necesar în repo)
+advancements_cache.db
+"AI evaluator cu date reale/advancements_cache.db"

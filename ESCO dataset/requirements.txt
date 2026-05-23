@@ -11,3 +11,5 @@ joblib>=1.4.0
 rapidfuzz>=3.9.0
 # utilitare
 numpy>=1.26.0
+# AI 2 evaluator
+openai>=1.30.0

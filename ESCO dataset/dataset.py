@@ -65,51 +65,43 @@ def open_path_if_possible(path):
 		print(f"Nu s-a putut deschide automat: {path}")
 
 
+# Euristică bazată pe task-based approach (Frey & Osborne, 2017; Autor, 2015).
+HIGH_RISK_KEYWORDS = [
+	# Operare utilaje / muncă fizică repetitivă (rutiniere manuale)
+	"operează", "alimentează", "asamblează", "sudează",
+	"sortează", "ambalează", "stivuiește", "prelucrează",
+	"vopsește", "polizează", "șlefuiește", "taie", "presează",
+	"reglează utilaj", "reglează mașin", "calibrează",
+	# Introducere și procesare date (rutiniere cognitive)
+	"introduce date", "înregistrează date", "completează formulare",
+	"codific", "arhivează", "clasifică documente",
+	# Monitorizare și control
+	"monitorizează", "setează", "procese", "automate",
+	# Inspecție / verificare calitate
+	"inspectează", "verifică calitat",
+]
+
+LOW_RISK_KEYWORDS = [
+	# Inteligență socială (Autor, 2015 — non-routine interpersonal)
+	"coordonează", "negociază", "consiliaz", "mentorează",
+	"comunică", "colaborează", "mediaz", "facilitează",
+	# Predare / formare
+	"predă", "formează", "instruiește", "îndrumă",
+	# Inteligență creativă și analitică (Frey & Osborne, 2017)
+	"creativ", "inovează", "proiectează", "cercetează",
+	"analizează", "evaluează", "planifică", "gestionează",
+	"diagnostichează", "interpretează", "adaptează",
+]
+
+
 def automation_score(skills):
-	"""
-	Euristică bazată pe task-based approach (Frey & Osborne, 2017; Autor, 2015).
-	Taskurile rutiniere (manuale + cognitive) cresc scorul de risc;
-	taskurile nerutiniere (sociale, creative, analitice) îl scad.
-	Pas mic (0.03) pentru a evita saturarea rapidă cu lista extinsă.
-	"""
 	score = 0.5
-
-	# Taskuri cu risc ridicat: rutiniere manuale și cognitive
-	high_risk = [
-		# Operare utilaje / muncă fizică repetitivă (rutiniere manuale)
-		"operează", "alimentează", "asamblează", "sudează",
-		"sortează", "ambalează", "stivuiește", "prelucrează",
-		"vopsește", "polizează", "șlefuiește", "taie", "presează",
-		"reglează utilaj", "reglează mașin", "calibrează",
-		# Introducere și procesare date (rutiniere cognitive)
-		"introduce date", "înregistrează date", "completează formulare",
-		"codific", "arhivează", "clasifică documente",
-		# Monitorizare și control (originale, păstrate)
-		"monitorizează", "setează", "procese", "automate",
-		# Inspecție / verificare calitate
-		"inspectează", "verifică calitat",
-	]
-
-	# Taskuri cu risc scăzut: nerutiniere sociale, creative, analitice
-	low_risk = [
-		# Inteligență socială (Autor, 2015 — non-routine interpersonal)
-		"coordonează", "negociază", "consiliaz", "mentorează",
-		"comunică", "colaborează", "mediaz", "facilitează",
-		# Predare / formare
-		"predă", "formează", "instruiește", "îndrumă",
-		# Inteligență creativă și analitică (Frey & Osborne, 2017)
-		"creativ", "inovează", "proiectează", "cercetează",
-		"analizează", "evaluează", "planifică", "gestionează",
-		"diagnostichează", "interpretează", "adaptează",
-	]
-
 	for skill in skills:
 		skill_lower = skill.lower()
-		if any(word in skill_lower for word in high_risk):
+		if any(word in skill_lower for word in HIGH_RISK_KEYWORDS):
 			score += 0.03
-		if any(word in skill_lower for word in low_risk):
+		if any(word in skill_lower for word in LOW_RISK_KEYWORDS):
 			score -= 0.03
-
 	return round(max(0, min(1, score)), 3)
 
 
@@ -183,6 +175,13 @@ if __name__ == "__main__":
 	df["automatic_all_skills"] = (df["automation_score"] * 100).round(1)
 	df["risk_level"] = df["automatic_all_skills"].apply(classify)
 
+	df["high_risk_count"] = df["skills_list"].apply(
+		lambda skills: sum(1 for s in skills if any(w in s.lower() for w in HIGH_RISK_KEYWORDS))
+	)
+	df["low_risk_count"] = df["skills_list"].apply(
+		lambda skills: sum(1 for s in skills if any(w in s.lower() for w in LOW_RISK_KEYWORDS))
+	)
+
 	df = df.sort_values(by=["automatic_all_skills", "automation_score_proxy", "job"], ascending=[False, False, True])
 
 	df_final = df[[
@@ -193,6 +192,8 @@ if __name__ == "__main__":
 		"knowledge",
 		"skill_com",
 		"automation_score_proxy",
+		"high_risk_count",
+		"low_risk_count",
 		"automatic_all_skills",
 		"risk_level",
 	]].copy()
@@ -237,7 +238,7 @@ if __name__ == "__main__":
 	# automation_score_proxy (optional_ratio + knowledge_ratio) adăugat ca feature:
 	# capturează ponderea structurală a skill-urilor rutiniere vs. cunoaștere,
 	# complementar față de contorizările absolute.
-	X = df_final[["total_skill", "essential", "optional", "knowledge", "skill_com", "automation_score_proxy"]]
+	X = df_final[["total_skill", "essential", "optional", "knowledge", "skill_com", "automation_score_proxy", "high_risk_count", "low_risk_count"]]
 	y = df_final["automatic_all_skills"]
 
 	X_train, X_test, y_train, y_test = train_test_split(
@@ -390,7 +391,7 @@ if __name__ == "__main__":
 	print("🎲 PASUL 5 - CLASIFICARE AI (Risk Level)")
 	print("="*60)
 
-	X_clf = df_final[["total_skill", "essential", "optional", "knowledge", "skill_com", "automation_score_proxy"]]
+	X_clf = df_final[["total_skill", "essential", "optional", "knowledge", "skill_com", "automation_score_proxy", "high_risk_count", "low_risk_count"]]
 	y_clf = df_final["risk_level"]
 
 	# ⚠️ STRATIFIED SPLIT - IMPORTANT pentru dataset dezechilibrat
@@ -673,24 +674,30 @@ if __name__ == "__main__":
 	# ===== 9.2: FUNCȚIE DE PREDICȚIE =====
 	print("\n📝 Creare funcții de predicție...")
 
-	def predict_automation_score(total_skill, essential, optional, knowledge, skill_com):
+	def predict_automation_score(total_skill, essential, optional, knowledge, skill_com, skills_list=None):
 		"""Prezice scorul de automatizare. Returnează (score, risk_level)."""
 		proxy = round(
 			((optional / total_skill * 0.5) + (knowledge / total_skill * 0.5)) * 100, 1
 		) if total_skill > 0 else 50.0
+		if skills_list:
+			high_risk_count = sum(1 for s in skills_list if any(w in s.lower() for w in HIGH_RISK_KEYWORDS))
+			low_risk_count = sum(1 for s in skills_list if any(w in s.lower() for w in LOW_RISK_KEYWORDS))
+		else:
+			high_risk_count = 0
+			low_risk_count = 0
 		features = pd.DataFrame(
-			[[total_skill, essential, optional, knowledge, skill_com, proxy]],
-			columns=["total_skill", "essential", "optional", "knowledge", "skill_com", "automation_score_proxy"],
+			[[total_skill, essential, optional, knowledge, skill_com, proxy, high_risk_count, low_risk_count]],
+			columns=["total_skill", "essential", "optional", "knowledge", "skill_com", "automation_score_proxy", "high_risk_count", "low_risk_count"],
 		)
 		score = model_lgb.predict(features)[0]
-	
+
 		if score < 45:
 			risk = "low"
 		elif score < 65:
 			risk = "medium"
 		else:
 			risk = "high"
-	
+
 		return round(score, 2), risk
 
 	print("✅ Funcție predict_automation_score() gata")
